@@ -13,10 +13,10 @@ export default defineNuxtConfig({
             download: true,
             inject: true
         }]
-        // ,
-        // ['nuxt-cloudflare-analytics', {
-        //     token: '2748a102b71040d1b4888bfe652bc5ab', // Example 1a2b3v4a5er6ac7r8afd
-        // }]
+        ,
+        ['nuxt-cloudflare-analytics', {
+            token: '9b4ff56743fb4c719fa587d4f881a9d6', 
+        }]
     ],
     css: [
         'vuetify/lib/styles/main.sass',
