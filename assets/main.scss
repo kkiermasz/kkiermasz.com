@@ -1,0 +1,14 @@
+.land-enter-active {
+  & .bio-card {
+    transform-origin: 50% 50% !important;
+    transition: opacity 5s ease, transform 5s ease !important;
+  }
+}
+.land-enter-from {
+  & .bio-card {
+    opacity: 0 !important;
+    transform: rotateX(15deg) !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
