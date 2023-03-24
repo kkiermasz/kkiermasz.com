@@ -2,7 +2,7 @@
   <v-app>
     <v-main>
       <div class="d-flex flex-column fill-height justify-center align-center mt-4 mb-10 mx-3">
-        <v-card class="pt-12 pb-12 px-4 bio-card text-center" :class="{'bio-card-active': loaded}">
+        <v-card class="pt-12 pb-4 px-4 bio-card text-center" :class="{'bio-card-active': loaded}">
           <div class="position-relative mb-6 mt-6">
             <v-avatar class="avatar avatar-img" size="12rem">
               <v-img src="img/avatar.jpg" eager @load="loaded=true;"></v-img>
@@ -15,40 +15,65 @@
               <li>Swift and Vapor enthusiast</li>
             </ul>
           </div>
-          <v-card-actions class="justify-center bio-actions">
-            <v-btn
-                variant="outlined"
-                icon="fas fa-brands fa-twitter"
-                class="mx-4"
-                size="4rem"
-                href="https://twitter.com/JakubKiermasz"
-                target="_blank"
-            ></v-btn>
-            <v-btn
-                variant="outlined"
-                icon="fas fa-brands fa-github"
-                class="mx-4"
-                size="4rem"
-                href="https://github.com/kkiermasz"
-                target="_blank"
-            ></v-btn>
-            <v-btn
-                variant="outlined"
-                icon="fas fa-brands fa-linkedin"
-                class="mx-4"
-                size="4rem"
-                href="https://www.linkedin.com/in/jakub-kiermasz/"
-                target="_blank"
-            ></v-btn>
-            <v-btn
-                variant="outlined"
-                icon="fas fa-solid fa-file"
-                class="mx-4"
-                size="4rem"
-                href="/files/resume.pdf"
-                target="_blank"
-            ></v-btn>
-          </v-card-actions>
+          <v-container class="bio-actions">
+            <v-row dense>
+              <v-col>
+                <v-btn
+                  variant="outlined"
+                  icon="fas fa-brands fa-twitter"
+                  class="mx-4 my-2"
+                  size="4rem"
+                  href="https://twitter.com/JakubKiermasz"
+                  target="_blank"
+                ></v-btn>
+              </v-col>
+              <v-col>
+                <v-btn
+                  variant="outlined"
+                  icon="fas fa-brands fa-github"
+                  class="mx-4 my-2"
+                  size="4rem"
+                  href="https://github.com/kkiermasz"
+                  target="_blank"
+                ></v-btn>
+              </v-col>
+              <v-col>
+                <v-btn
+                  variant="outlined"
+                  icon="fas fa-brands fa-linkedin"
+                  class="mx-4 my-2"
+                  size="4rem"
+                  href="https://www.linkedin.com/in/jakub-kiermasz/"
+                  target="_blank"
+                ></v-btn>
+              </v-col>
+              <v-col>
+                <v-btn
+                  variant="outlined"
+                  icon="fas fa-brands fa-medium"
+                  class="mx-4 my-2"
+                  size="4rem"
+                  href="https://medium.com/@jakubkiermasz"
+                  target="_blank"
+                ></v-btn>
+              </v-col>
+              <v-col>
+                <v-btn
+                  variant="outlined"
+                  icon="fas fa-solid fa-file"
+                  class="mx-4 my-2"
+                  size="4rem"
+                  href="/files/resume.pdf"
+                  target="_blank"
+                ></v-btn>
+              </v-col>
+            </v-row>
+          </v-container>
+          <!-- <v-card-actions class="justify-center mx-4 bio-actions">
+            
+            
+            
+          </v-card-actions> -->
         </v-card>
       </div>
     </v-main>
