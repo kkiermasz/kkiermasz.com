@@ -33,7 +33,7 @@
   version "7.21.4"
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.21.4.tgz#457ffe647c480dff59c2be092fc3acf71195c87f"
 
-"@babel/core@^7.20.12", "@babel/core@^7.20.7":
+"@babel/core@^7.20.7":
   version "7.21.3"
   resolved "https://registry.npmjs.org/@babel/core/-/core-7.21.3.tgz"
   dependencies:
@@ -268,10 +268,6 @@
     "@babel/helper-plugin-utils" "^7.20.2"
     "@babel/plugin-syntax-typescript" "^7.20.0"
 
-"@babel/standalone@^7.20.12":
-  version "7.21.3"
-  resolved "https://registry.npmjs.org/@babel/standalone/-/standalone-7.21.3.tgz"
-
 "@babel/standalone@^7.21.3":
   version "7.21.4"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.21.4.tgz#f1a7131775df87c526cc393c36d013acd2b3c609"
@@ -344,6 +340,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.14.tgz#4624cea3c8941c91f9e9c1228f550d23f1cef037"
 
+"@esbuild/android-arm64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.18.tgz#4aa8d8afcffb4458736ca9b32baa97d7cb5861ea"
+
 "@esbuild/android-arm@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.16.17.tgz#025b6246d3f68b7bbaa97069144fb5fb70f2fff2"
@@ -351,6 +351,10 @@
 "@esbuild/android-arm@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.17.14.tgz#74fae60fcab34c3f0e15cb56473a6091ba2b53a6"
+
+"@esbuild/android-arm@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.17.18.tgz#74a7e95af4ee212ebc9db9baa87c06a594f2a427"
 
 "@esbuild/android-x64@0.16.17":
   version "0.16.17"
@@ -360,6 +364,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/android-x64/-/android-x64-0.17.14.tgz#f002fbc08d5e939d8314bd23bcfb1e95d029491f"
 
+"@esbuild/android-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-x64/-/android-x64-0.17.18.tgz#1dcd13f201997c9fe0b204189d3a0da4eb4eb9b6"
+
 "@esbuild/darwin-arm64@0.16.17":
   version "0.16.17"
   resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.16.17.tgz"
@@ -367,6 +375,10 @@
 "@esbuild/darwin-arm64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/darwin-arm64/-/darwin-arm64-0.17.14.tgz#b8dcd79a1dd19564950b4ca51d62999011e2e168"
+
+"@esbuild/darwin-arm64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-arm64/-/darwin-arm64-0.17.18.tgz#444f3b961d4da7a89eb9bd35cfa4415141537c2a"
 
 "@esbuild/darwin-x64@0.16.17":
   version "0.16.17"
@@ -376,6 +388,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.17.14.tgz#4b49f195d9473625efc3c773fc757018f2c0d979"
 
+"@esbuild/darwin-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-x64/-/darwin-x64-0.17.18.tgz#a6da308d0ac8a498c54d62e0b2bfb7119b22d315"
+
 "@esbuild/freebsd-arm64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.16.17.tgz#1f4af488bfc7e9ced04207034d398e793b570a27"
@@ -383,6 +399,10 @@
 "@esbuild/freebsd-arm64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.17.14.tgz#480923fd38f644c6342c55e916cc7c231a85eeb7"
+
+"@esbuild/freebsd-arm64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/freebsd-arm64/-/freebsd-arm64-0.17.18.tgz#b83122bb468889399d0d63475d5aea8d6829c2c2"
 
 "@esbuild/freebsd-x64@0.16.17":
   version "0.16.17"
@@ -392,6 +412,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/freebsd-x64/-/freebsd-x64-0.17.14.tgz#a6b6b01954ad8562461cb8a5e40e8a860af69cbe"
 
+"@esbuild/freebsd-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/freebsd-x64/-/freebsd-x64-0.17.18.tgz#af59e0e03fcf7f221b34d4c5ab14094862c9c864"
+
 "@esbuild/linux-arm64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-arm64/-/linux-arm64-0.16.17.tgz#a003f7ff237c501e095d4f3a09e58fc7b25a4aca"
@@ -399,6 +423,10 @@
 "@esbuild/linux-arm64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-arm64/-/linux-arm64-0.17.14.tgz#1fe2f39f78183b59f75a4ad9c48d079916d92418"
+
+"@esbuild/linux-arm64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm64/-/linux-arm64-0.17.18.tgz#8551d72ba540c5bce4bab274a81c14ed01eafdcf"
 
 "@esbuild/linux-arm@0.16.17":
   version "0.16.17"
@@ -408,6 +436,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-arm/-/linux-arm-0.17.14.tgz#18d594a49b64e4a3a05022c005cb384a58056a2a"
 
+"@esbuild/linux-arm@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-arm/-/linux-arm-0.17.18.tgz#e09e76e526df4f665d4d2720d28ff87d15cdf639"
+
 "@esbuild/linux-ia32@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-ia32/-/linux-ia32-0.16.17.tgz#24333a11027ef46a18f57019450a5188918e2a54"
@@ -415,6 +447,10 @@
 "@esbuild/linux-ia32@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-ia32/-/linux-ia32-0.17.14.tgz#f7f0182a9cfc0159e0922ed66c805c9c6ef1b654"
+
+"@esbuild/linux-ia32@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-ia32/-/linux-ia32-0.17.18.tgz#47878860ce4fe73a36fd8627f5647bcbbef38ba4"
 
 "@esbuild/linux-loong64@0.16.17":
   version "0.16.17"
@@ -424,6 +460,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.17.14.tgz#5f5305fdffe2d71dd9a97aa77d0c99c99409066f"
 
+"@esbuild/linux-loong64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.17.18.tgz#3f8fbf5267556fc387d20b2e708ce115de5c967a"
+
 "@esbuild/linux-mips64el@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-mips64el/-/linux-mips64el-0.16.17.tgz#4e5967a665c38360b0a8205594377d4dcf9c3726"
@@ -431,6 +471,10 @@
 "@esbuild/linux-mips64el@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-mips64el/-/linux-mips64el-0.17.14.tgz#a602e85c51b2f71d2aedfe7f4143b2f92f97f3f5"
+
+"@esbuild/linux-mips64el@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-mips64el/-/linux-mips64el-0.17.18.tgz#9d896d8f3c75f6c226cbeb840127462e37738226"
 
 "@esbuild/linux-ppc64@0.16.17":
   version "0.16.17"
@@ -440,6 +484,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-ppc64/-/linux-ppc64-0.17.14.tgz#32d918d782105cbd9345dbfba14ee018b9c7afdf"
 
+"@esbuild/linux-ppc64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-ppc64/-/linux-ppc64-0.17.18.tgz#3d9deb60b2d32c9985bdc3e3be090d30b7472783"
+
 "@esbuild/linux-riscv64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-riscv64/-/linux-riscv64-0.16.17.tgz#c351e433d009bf256e798ad048152c8d76da2fc9"
@@ -447,6 +495,10 @@
 "@esbuild/linux-riscv64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-riscv64/-/linux-riscv64-0.17.14.tgz#38612e7b6c037dff7022c33f49ca17f85c5dec58"
+
+"@esbuild/linux-riscv64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-riscv64/-/linux-riscv64-0.17.18.tgz#8a943cf13fd24ff7ed58aefb940ef178f93386bc"
 
 "@esbuild/linux-s390x@0.16.17":
   version "0.16.17"
@@ -456,6 +508,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-s390x/-/linux-s390x-0.17.14.tgz#4397dff354f899e72fd035d72af59a700c465ccb"
 
+"@esbuild/linux-s390x@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-s390x/-/linux-s390x-0.17.18.tgz#66cb01f4a06423e5496facabdce4f7cae7cb80e5"
+
 "@esbuild/linux-x64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.16.17.tgz#e4ba18e8b149a89c982351443a377c723762b85f"
@@ -463,6 +519,10 @@
 "@esbuild/linux-x64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.17.14.tgz#6c5cb99891b6c3e0c08369da3ef465e8038ad9c2"
+
+"@esbuild/linux-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-x64/-/linux-x64-0.17.18.tgz#23c26050c6c5d1359c7b774823adc32b3883b6c9"
 
 "@esbuild/netbsd-x64@0.16.17":
   version "0.16.17"
@@ -472,6 +532,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/netbsd-x64/-/netbsd-x64-0.17.14.tgz#5fa5255a64e9bf3947c1b3bef5e458b50b211994"
 
+"@esbuild/netbsd-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/netbsd-x64/-/netbsd-x64-0.17.18.tgz#789a203d3115a52633ff6504f8cbf757f15e703b"
+
 "@esbuild/openbsd-x64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/openbsd-x64/-/openbsd-x64-0.16.17.tgz#970fa7f8470681f3e6b1db0cc421a4af8060ec35"
@@ -479,6 +543,10 @@
 "@esbuild/openbsd-x64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/openbsd-x64/-/openbsd-x64-0.17.14.tgz#74d14c79dcb6faf446878cc64284aa4e02f5ca6f"
+
+"@esbuild/openbsd-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/openbsd-x64/-/openbsd-x64-0.17.18.tgz#d7b998a30878f8da40617a10af423f56f12a5e90"
 
 "@esbuild/sunos-x64@0.16.17":
   version "0.16.17"
@@ -488,6 +556,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/sunos-x64/-/sunos-x64-0.17.14.tgz#5c7d1c7203781d86c2a9b2ff77bd2f8036d24cfa"
 
+"@esbuild/sunos-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/sunos-x64/-/sunos-x64-0.17.18.tgz#ecad0736aa7dae07901ba273db9ef3d3e93df31f"
+
 "@esbuild/win32-arm64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/win32-arm64/-/win32-arm64-0.16.17.tgz#7b0ff9e8c3265537a7a7b1fd9a24e7bd39fcd87a"
@@ -495,6 +567,10 @@
 "@esbuild/win32-arm64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/win32-arm64/-/win32-arm64-0.17.14.tgz#dc36ed84f1390e73b6019ccf0566c80045e5ca3d"
+
+"@esbuild/win32-arm64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-arm64/-/win32-arm64-0.17.18.tgz#58dfc177da30acf956252d7c8ae9e54e424887c4"
 
 "@esbuild/win32-ia32@0.16.17":
   version "0.16.17"
@@ -504,6 +580,10 @@
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/win32-ia32/-/win32-ia32-0.17.14.tgz#0802a107afa9193c13e35de15a94fe347c588767"
 
+"@esbuild/win32-ia32@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-ia32/-/win32-ia32-0.17.18.tgz#340f6163172b5272b5ae60ec12c312485f69232b"
+
 "@esbuild/win32-x64@0.16.17":
   version "0.16.17"
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.17.tgz#c5a1a4bfe1b57f0c3e61b29883525c6da3e5c091"
@@ -511,6 +591,10 @@
 "@esbuild/win32-x64@0.17.14":
   version "0.17.14"
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.14.tgz#e81fb49de05fed91bf74251c9ca0343f4fc77d31"
+
+"@esbuild/win32-x64@0.17.18":
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.18.tgz#3a8e57153905308db357fd02f57c180ee3a0a1fa"
 
 "@fortawesome/fontawesome-common-types@6.3.0":
   version "6.3.0"
@@ -791,11 +875,11 @@
     unimport "^3.0.2"
     untyped "^1.2.2"
 
-"@nuxt/kit@3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.3.2.tgz#e3cd19c0f5cd0f124fff6f659a5f25002f808946"
+"@nuxt/kit@3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.3.3.tgz#14706db145101750ac4ab75f2cc6d5a5c507c51b"
   dependencies:
-    "@nuxt/schema" "3.3.2"
+    "@nuxt/schema" "3.3.3"
     c12 "^1.2.0"
     consola "^2.15.3"
     defu "^6.1.2"
@@ -812,7 +896,7 @@
     semver "^7.3.8"
     unctx "^2.1.2"
     unimport "^3.0.4"
-    untyped "^1.2.2"
+    untyped "^1.3.2"
 
 "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.2.3", "@nuxt/kit@^3.3.1", "@nuxt/kit@^3.4.0":
   version "3.4.0"
@@ -909,14 +993,14 @@
     unimport "^3.0.2"
     untyped "^1.2.2"
 
-"@nuxt/schema@3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.3.2.tgz#c567dfaf099c65ae2fce4b5d1bcf43a94239a4c6"
+"@nuxt/schema@3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.3.3.tgz#8b7c6965120b3210f426946479181a1d2902293f"
   dependencies:
     c12 "^1.2.0"
     create-require "^1.1.1"
     defu "^6.1.2"
-    hookable "^5.5.0"
+    hookable "^5.5.3"
     jiti "^1.18.2"
     pathe "^1.1.0"
     pkg-types "^1.0.2"
@@ -925,7 +1009,7 @@
     std-env "^3.3.2"
     ufo "^1.1.1"
     unimport "^3.0.4"
-    untyped "^1.2.2"
+    untyped "^1.3.2"
 
 "@nuxt/schema@3.4.0":
   version "3.4.0"
@@ -974,26 +1058,26 @@
   version "1.1.1"
   resolved "https://registry.npmjs.org/@nuxt/ui-templates/-/ui-templates-1.1.1.tgz"
 
-"@nuxt/vite-builder@3.3.2":
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-3.3.2.tgz#a89d0ea748fd0c544680c5d729c0d9299a9d89d0"
+"@nuxt/vite-builder@3.3.3":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-3.3.3.tgz#e98438850b8253f7fda1ca61e7cdc0175b465015"
   dependencies:
-    "@nuxt/kit" "3.3.2"
+    "@nuxt/kit" "3.3.3"
     "@rollup/plugin-replace" "^5.0.2"
     "@vitejs/plugin-vue" "^4.1.0"
     "@vitejs/plugin-vue-jsx" "^3.0.1"
     autoprefixer "^10.4.14"
     chokidar "^3.5.3"
     clear "^0.1.0"
-    cssnano "^5.1.15"
+    cssnano "^6.0.0"
     defu "^6.1.2"
-    esbuild "^0.17.12"
+    esbuild "^0.17.15"
     escape-string-regexp "^5.0.0"
     estree-walker "^3.0.3"
     externality "^1.0.0"
     fs-extra "^11.1.1"
     get-port-please "^3.0.1"
-    h3 "^1.6.2"
+    h3 "^1.6.4"
     knitwork "^1.0.0"
     magic-string "^0.30.0"
     mlly "^1.2.0"
@@ -1004,16 +1088,15 @@
     postcss "^8.4.21"
     postcss-import "^15.1.0"
     postcss-url "^10.1.3"
-    rollup "^3.20.2"
     rollup-plugin-visualizer "^5.9.0"
     std-env "^3.3.2"
     strip-literal "^1.0.1"
     ufo "^1.1.1"
     unplugin "^1.3.1"
     vite "~4.2.1"
-    vite-node "^0.29.7"
+    vite-node "^0.29.8"
     vite-plugin-checker "^0.5.6"
-    vue-bundle-renderer "^1.0.2"
+    vue-bundle-renderer "^1.0.3"
 
 "@nuxtjs/google-fonts@3.0.0":
   version "3.0.0"
@@ -1204,6 +1287,13 @@
     "@unhead/schema" "1.1.23"
     "@unhead/shared" "1.1.23"
 
+"@unhead/dom@1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.1.26.tgz#1edfdb5bf686436b0521fd34690a8e195c06f117"
+  dependencies:
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+
 "@unhead/schema-org-vue@^0.5.0":
   version "0.5.0"
   resolved "https://registry.npmjs.org/@unhead/schema-org-vue/-/schema-org-vue-0.5.0.tgz"
@@ -1215,27 +1305,40 @@
     hookable "^5.4.2"
     zhead "^2.0.4"
 
+"@unhead/schema@1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.1.26.tgz#4b2e0c8cf0139cbae49d7d86fa2223d8e982af80"
+  dependencies:
+    hookable "^5.5.3"
+    zhead "^2.0.4"
+
 "@unhead/shared@1.1.23":
   version "1.1.23"
   resolved "https://registry.npmjs.org/@unhead/shared/-/shared-1.1.23.tgz"
   dependencies:
     "@unhead/schema" "1.1.23"
 
-"@unhead/ssr@^1.1.23":
-  version "1.1.23"
-  resolved "https://registry.npmjs.org/@unhead/ssr/-/ssr-1.1.23.tgz"
+"@unhead/shared@1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.1.26.tgz#51135d9e29c36848abbd76ff7da6fd47e1305688"
   dependencies:
-    "@unhead/schema" "1.1.23"
-    "@unhead/shared" "1.1.23"
+    "@unhead/schema" "1.1.26"
 
-"@unhead/vue@^1.1.23":
-  version "1.1.23"
-  resolved "https://registry.npmjs.org/@unhead/vue/-/vue-1.1.23.tgz"
+"@unhead/ssr@^1.1.23", "@unhead/ssr@^1.1.25":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/ssr/-/ssr-1.1.26.tgz#2d30085ed99025c41cede1d2d17fe1a2d668d958"
   dependencies:
-    "@unhead/schema" "1.1.23"
-    "@unhead/shared" "1.1.23"
-    hookable "^5.4.2"
-    unhead "1.1.23"
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+
+"@unhead/vue@^1.1.23", "@unhead/vue@^1.1.25":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.1.26.tgz#0a0ccdd0d7b223520d1a1563fa11c8775235e41e"
+  dependencies:
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+    hookable "^5.5.3"
+    unhead "1.1.26"
 
 "@vercel/nft@^0.22.6":
   version "0.22.6"
@@ -2012,16 +2115,6 @@ css-declaration-sorter@^6.3.1:
   version "6.3.1"
   resolved "https://registry.npmjs.org/css-declaration-sorter/-/css-declaration-sorter-6.3.1.tgz"
 
-css-select@^4.1.3:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/css-select/-/css-select-4.3.0.tgz"
-  dependencies:
-    boolbase "^1.0.0"
-    css-what "^6.0.1"
-    domhandler "^4.3.1"
-    domutils "^2.8.0"
-    nth-check "^2.0.1"
-
 css-select@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz"
@@ -2040,14 +2133,21 @@ css-to-react-native@^3.0.0:
     css-color-keywords "^1.0.0"
     postcss-value-parser "^4.0.2"
 
-css-tree@^1.1.2, css-tree@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/css-tree/-/css-tree-1.1.3.tgz"
+css-tree@^2.2.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.3.1.tgz#10264ce1e5442e8572fc82fbe490644ff54b5c20"
   dependencies:
-    mdn-data "2.0.14"
-    source-map "^0.6.1"
+    mdn-data "2.0.30"
+    source-map-js "^1.0.1"
 
-css-what@^6.0.1, css-what@^6.1.0:
+css-tree@~2.2.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.2.1.tgz#36115d382d60afd271e377f9c5f67d02bd48c032"
+  dependencies:
+    mdn-data "2.0.28"
+    source-map-js "^1.0.1"
+
+css-what@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
 
@@ -2059,57 +2159,56 @@ cssfilter@0.0.10:
   version "0.0.10"
   resolved "https://registry.npmjs.org/cssfilter/-/cssfilter-0.0.10.tgz"
 
-cssnano-preset-default@^5.2.14:
-  version "5.2.14"
-  resolved "https://registry.npmjs.org/cssnano-preset-default/-/cssnano-preset-default-5.2.14.tgz"
+cssnano-preset-default@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-6.0.0.tgz#058726536bdc18711c01b1d328766cbc5691cf71"
   dependencies:
     css-declaration-sorter "^6.3.1"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-calc "^8.2.3"
-    postcss-colormin "^5.3.1"
-    postcss-convert-values "^5.1.3"
-    postcss-discard-comments "^5.1.2"
-    postcss-discard-duplicates "^5.1.0"
-    postcss-discard-empty "^5.1.1"
-    postcss-discard-overridden "^5.1.0"
-    postcss-merge-longhand "^5.1.7"
-    postcss-merge-rules "^5.1.4"
-    postcss-minify-font-values "^5.1.0"
-    postcss-minify-gradients "^5.1.1"
-    postcss-minify-params "^5.1.4"
-    postcss-minify-selectors "^5.2.1"
-    postcss-normalize-charset "^5.1.0"
-    postcss-normalize-display-values "^5.1.0"
-    postcss-normalize-positions "^5.1.1"
-    postcss-normalize-repeat-style "^5.1.1"
-    postcss-normalize-string "^5.1.0"
-    postcss-normalize-timing-functions "^5.1.0"
-    postcss-normalize-unicode "^5.1.1"
-    postcss-normalize-url "^5.1.0"
-    postcss-normalize-whitespace "^5.1.1"
-    postcss-ordered-values "^5.1.3"
-    postcss-reduce-initial "^5.1.2"
-    postcss-reduce-transforms "^5.1.0"
-    postcss-svgo "^5.1.0"
-    postcss-unique-selectors "^5.1.1"
+    postcss-colormin "^6.0.0"
+    postcss-convert-values "^6.0.0"
+    postcss-discard-comments "^6.0.0"
+    postcss-discard-duplicates "^6.0.0"
+    postcss-discard-empty "^6.0.0"
+    postcss-discard-overridden "^6.0.0"
+    postcss-merge-longhand "^6.0.0"
+    postcss-merge-rules "^6.0.0"
+    postcss-minify-font-values "^6.0.0"
+    postcss-minify-gradients "^6.0.0"
+    postcss-minify-params "^6.0.0"
+    postcss-minify-selectors "^6.0.0"
+    postcss-normalize-charset "^6.0.0"
+    postcss-normalize-display-values "^6.0.0"
+    postcss-normalize-positions "^6.0.0"
+    postcss-normalize-repeat-style "^6.0.0"
+    postcss-normalize-string "^6.0.0"
+    postcss-normalize-timing-functions "^6.0.0"
+    postcss-normalize-unicode "^6.0.0"
+    postcss-normalize-url "^6.0.0"
+    postcss-normalize-whitespace "^6.0.0"
+    postcss-ordered-values "^6.0.0"
+    postcss-reduce-initial "^6.0.0"
+    postcss-reduce-transforms "^6.0.0"
+    postcss-svgo "^6.0.0"
+    postcss-unique-selectors "^6.0.0"
 
-cssnano-utils@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/cssnano-utils/-/cssnano-utils-3.1.0.tgz"
+cssnano-utils@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-4.0.0.tgz#d1da885ec04003ab19505ff0e62e029708d36b08"
 
-cssnano@^5.1.15:
-  version "5.1.15"
-  resolved "https://registry.npmjs.org/cssnano/-/cssnano-5.1.15.tgz"
+cssnano@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-6.0.0.tgz#53f4cb81101cccba0809fad779f006b5d44925ee"
   dependencies:
-    cssnano-preset-default "^5.2.14"
-    lilconfig "^2.0.3"
-    yaml "^1.10.2"
+    cssnano-preset-default "^6.0.0"
+    lilconfig "^2.1.0"
 
-csso@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/csso/-/csso-4.2.0.tgz"
+csso@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/csso/-/csso-5.0.5.tgz#f9b7fe6cc6ac0b7d90781bb16d5e9874303e2ca6"
   dependencies:
-    css-tree "^1.1.2"
+    css-tree "~2.2.0"
 
 csstype@^2.6.8:
   version "2.6.21"
@@ -2211,14 +2310,6 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-dom-serializer@^1.0.1:
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.4.1.tgz"
-  dependencies:
-    domelementtype "^2.0.1"
-    domhandler "^4.2.0"
-    entities "^2.0.0"
-
 dom-serializer@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz"
@@ -2227,29 +2318,15 @@ dom-serializer@^2.0.0:
     domhandler "^5.0.2"
     entities "^4.2.0"
 
-domelementtype@^2.0.1, domelementtype@^2.2.0, domelementtype@^2.3.0:
+domelementtype@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz"
-
-domhandler@^4.2.0, domhandler@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npmjs.org/domhandler/-/domhandler-4.3.1.tgz"
-  dependencies:
-    domelementtype "^2.2.0"
 
 domhandler@^5.0.1, domhandler@^5.0.2, domhandler@^5.0.3:
   version "5.0.3"
   resolved "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz"
   dependencies:
     domelementtype "^2.3.0"
-
-domutils@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/domutils/-/domutils-2.8.0.tgz"
-  dependencies:
-    dom-serializer "^1.0.1"
-    domelementtype "^2.2.0"
-    domhandler "^4.2.0"
 
 domutils@^3.0.1:
   version "3.0.1"
@@ -2340,10 +2417,6 @@ enhanced-resolve@^5.10.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-entities@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz"
-
 entities@^4.2.0, entities@^4.3.0, entities@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz"
@@ -2407,6 +2480,33 @@ esbuild@^0.17.12, esbuild@^0.17.5:
     "@esbuild/win32-arm64" "0.17.14"
     "@esbuild/win32-ia32" "0.17.14"
     "@esbuild/win32-x64" "0.17.14"
+
+esbuild@^0.17.15:
+  version "0.17.18"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.17.18.tgz#f4f8eb6d77384d68cd71c53eb6601c7efe05e746"
+  optionalDependencies:
+    "@esbuild/android-arm" "0.17.18"
+    "@esbuild/android-arm64" "0.17.18"
+    "@esbuild/android-x64" "0.17.18"
+    "@esbuild/darwin-arm64" "0.17.18"
+    "@esbuild/darwin-x64" "0.17.18"
+    "@esbuild/freebsd-arm64" "0.17.18"
+    "@esbuild/freebsd-x64" "0.17.18"
+    "@esbuild/linux-arm" "0.17.18"
+    "@esbuild/linux-arm64" "0.17.18"
+    "@esbuild/linux-ia32" "0.17.18"
+    "@esbuild/linux-loong64" "0.17.18"
+    "@esbuild/linux-mips64el" "0.17.18"
+    "@esbuild/linux-ppc64" "0.17.18"
+    "@esbuild/linux-riscv64" "0.17.18"
+    "@esbuild/linux-s390x" "0.17.18"
+    "@esbuild/linux-x64" "0.17.18"
+    "@esbuild/netbsd-x64" "0.17.18"
+    "@esbuild/openbsd-x64" "0.17.18"
+    "@esbuild/sunos-x64" "0.17.18"
+    "@esbuild/win32-arm64" "0.17.18"
+    "@esbuild/win32-ia32" "0.17.18"
+    "@esbuild/win32-x64" "0.17.18"
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -2864,11 +2964,7 @@ hastscript@^7.0.0:
     property-information "^6.0.0"
     space-separated-tokens "^2.0.0"
 
-hookable@^5.4.2, hookable@^5.5.0, hookable@^5.5.1:
-  version "5.5.1"
-  resolved "https://registry.npmjs.org/hookable/-/hookable-5.5.1.tgz"
-
-hookable@^5.5.3:
+hookable@^5.4.2, hookable@^5.5.0, hookable@^5.5.1, hookable@^5.5.3:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.5.3.tgz#6cfc358984a1ef991e2518cb9ed4a778bbd3215d"
 
@@ -3242,9 +3338,9 @@ lighthouse-logger@^1.0.0:
     debug "^2.6.9"
     marky "^1.2.2"
 
-lilconfig@^2.0.3:
+lilconfig@^2.1.0:
   version "2.1.0"
-  resolved "https://registry.npmjs.org/lilconfig/-/lilconfig-2.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/lilconfig/-/lilconfig-2.1.0.tgz#78e23ac89ebb7e1bfbf25b18043de756548e7f52"
 
 linebreak@^1.1.0:
   version "1.1.0"
@@ -3522,9 +3618,13 @@ mdast-util-to-string@^3.0.0, mdast-util-to-string@^3.1.0:
   dependencies:
     "@types/mdast" "^3.0.0"
 
-mdn-data@2.0.14:
-  version "2.0.14"
-  resolved "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.14.tgz"
+mdn-data@2.0.28:
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.28.tgz#5ec48e7bef120654539069e1ae4ddc81ca490eba"
+
+mdn-data@2.0.30:
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.30.tgz#ce4df6f80af6cfbe218ecd5c552ba13c4dfa08cc"
 
 mdurl@^1.0.1:
   version "1.0.1"
@@ -4066,10 +4166,6 @@ normalize-range@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz"
 
-normalize-url@^6.0.1:
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz"
-
 npm-run-path@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/npm-run-path/-/npm-run-path-4.0.1.tgz"
@@ -4097,9 +4193,9 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
-nuxi@3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.3.2.tgz#ca0f804ed5eb6b712eff7169a7fd306f7928fb22"
+nuxi@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/nuxi/-/nuxi-3.3.3.tgz#503d5dce9d17c1e2074328259454caf2f6e346cc"
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -4204,18 +4300,18 @@ nuxt-unhead@^1.4.15:
     pathe "^1.1.0"
     unhead "^1.1.20"
 
-nuxt@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.3.2.tgz#02f2f4594eb59a56da115651f6a5e913b47914e7"
+nuxt@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.3.3.tgz#37d842d93e81a75dccdd28d0d5da8e7ac65cc5c1"
   dependencies:
     "@nuxt/devalue" "^2.0.0"
-    "@nuxt/kit" "3.3.2"
-    "@nuxt/schema" "3.3.2"
+    "@nuxt/kit" "3.3.3"
+    "@nuxt/schema" "3.3.3"
     "@nuxt/telemetry" "^2.1.10"
     "@nuxt/ui-templates" "^1.1.1"
-    "@nuxt/vite-builder" "3.3.2"
-    "@unhead/ssr" "^1.1.23"
-    "@unhead/vue" "^1.1.23"
+    "@nuxt/vite-builder" "3.3.3"
+    "@unhead/ssr" "^1.1.25"
+    "@unhead/vue" "^1.1.25"
     "@vue/reactivity" "^3.2.47"
     "@vue/shared" "^3.2.47"
     chokidar "^3.5.3"
@@ -4226,15 +4322,15 @@ nuxt@^3.3.2:
     estree-walker "^3.0.3"
     fs-extra "^11.1.1"
     globby "^13.1.3"
-    h3 "^1.6.2"
+    h3 "^1.6.4"
     hash-sum "^2.0.0"
-    hookable "^5.5.0"
+    hookable "^5.5.3"
     jiti "^1.18.2"
     knitwork "^1.0.0"
     magic-string "^0.30.0"
     mlly "^1.2.0"
     nitropack "~2.3.2"
-    nuxi "3.3.2"
+    nuxi "3.3.3"
     ofetch "^1.0.1"
     ohash "^1.0.0"
     pathe "^1.1.0"
@@ -4246,9 +4342,9 @@ nuxt@^3.3.2:
     unenv "^1.2.2"
     unimport "^3.0.4"
     unplugin "^1.3.1"
-    untyped "^1.2.2"
+    untyped "^1.3.2"
     vue "^3.2.47"
-    vue-bundle-renderer "^1.0.2"
+    vue-bundle-renderer "^1.0.3"
     vue-devtools-stub "^0.1.0"
     vue-router "^4.1.6"
 
@@ -4446,37 +4542,37 @@ postcss-calc@^8.2.3:
     postcss-selector-parser "^6.0.9"
     postcss-value-parser "^4.2.0"
 
-postcss-colormin@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.npmjs.org/postcss-colormin/-/postcss-colormin-5.3.1.tgz"
+postcss-colormin@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-6.0.0.tgz#d4250652e952e1c0aca70c66942da93d3cdeaafe"
   dependencies:
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
     colord "^2.9.1"
     postcss-value-parser "^4.2.0"
 
-postcss-convert-values@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/postcss-convert-values/-/postcss-convert-values-5.1.3.tgz"
+postcss-convert-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-convert-values/-/postcss-convert-values-6.0.0.tgz#ec94a954957e5c3f78f0e8f65dfcda95280b8996"
   dependencies:
     browserslist "^4.21.4"
     postcss-value-parser "^4.2.0"
 
-postcss-discard-comments@^5.1.2:
-  version "5.1.2"
-  resolved "https://registry.npmjs.org/postcss-discard-comments/-/postcss-discard-comments-5.1.2.tgz"
+postcss-discard-comments@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-comments/-/postcss-discard-comments-6.0.0.tgz#9ca335e8b68919f301b24ba47dde226a42e535fe"
 
-postcss-discard-duplicates@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-discard-duplicates/-/postcss-discard-duplicates-5.1.0.tgz"
+postcss-discard-duplicates@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-duplicates/-/postcss-discard-duplicates-6.0.0.tgz#c26177a6c33070922e67e9a92c0fd23d443d1355"
 
-postcss-discard-empty@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-discard-empty/-/postcss-discard-empty-5.1.1.tgz"
+postcss-discard-empty@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-empty/-/postcss-discard-empty-6.0.0.tgz#06c1c4fce09e22d2a99e667c8550eb8a3a1b9aee"
 
-postcss-discard-overridden@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-discard-overridden/-/postcss-discard-overridden-5.1.0.tgz"
+postcss-discard-overridden@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-discard-overridden/-/postcss-discard-overridden-6.0.0.tgz#49c5262db14e975e349692d9024442de7cd8e234"
 
 postcss-import-resolver@^2.0.0:
   version "2.0.0"
@@ -4492,121 +4588,120 @@ postcss-import@^15.1.0:
     read-cache "^1.0.0"
     resolve "^1.1.7"
 
-postcss-merge-longhand@^5.1.7:
-  version "5.1.7"
-  resolved "https://registry.npmjs.org/postcss-merge-longhand/-/postcss-merge-longhand-5.1.7.tgz"
+postcss-merge-longhand@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-merge-longhand/-/postcss-merge-longhand-6.0.0.tgz#6f627b27db939bce316eaa97e22400267e798d69"
   dependencies:
     postcss-value-parser "^4.2.0"
-    stylehacks "^5.1.1"
+    stylehacks "^6.0.0"
 
-postcss-merge-rules@^5.1.4:
-  version "5.1.4"
-  resolved "https://registry.npmjs.org/postcss-merge-rules/-/postcss-merge-rules-5.1.4.tgz"
+postcss-merge-rules@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-merge-rules/-/postcss-merge-rules-6.0.0.tgz#0d95bc73541156b8b4e763bd0de2c3f9d0ecf013"
   dependencies:
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-selector-parser "^6.0.5"
 
-postcss-minify-font-values@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-minify-font-values/-/postcss-minify-font-values-5.1.0.tgz"
+postcss-minify-font-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-font-values/-/postcss-minify-font-values-6.0.0.tgz#68d4a028f9fa5f61701974724b2cc9445d8e6070"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-minify-gradients@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-minify-gradients/-/postcss-minify-gradients-5.1.1.tgz"
+postcss-minify-gradients@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-gradients/-/postcss-minify-gradients-6.0.0.tgz#22b5c88cc63091dadbad34e31ff958404d51d679"
   dependencies:
     colord "^2.9.1"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-value-parser "^4.2.0"
 
-postcss-minify-params@^5.1.4:
-  version "5.1.4"
-  resolved "https://registry.npmjs.org/postcss-minify-params/-/postcss-minify-params-5.1.4.tgz"
+postcss-minify-params@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-6.0.0.tgz#2b3a85a9e3b990d7a16866f430f5fd1d5961b539"
   dependencies:
     browserslist "^4.21.4"
-    cssnano-utils "^3.1.0"
+    cssnano-utils "^4.0.0"
     postcss-value-parser "^4.2.0"
 
-postcss-minify-selectors@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.npmjs.org/postcss-minify-selectors/-/postcss-minify-selectors-5.2.1.tgz"
+postcss-minify-selectors@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-minify-selectors/-/postcss-minify-selectors-6.0.0.tgz#5046c5e8680a586e5a0cad52cc9aa36d6be5bda2"
   dependencies:
     postcss-selector-parser "^6.0.5"
 
-postcss-normalize-charset@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-charset/-/postcss-normalize-charset-5.1.0.tgz"
+postcss-normalize-charset@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-charset/-/postcss-normalize-charset-6.0.0.tgz#36cc12457259064969fb96f84df491652a4b0975"
 
-postcss-normalize-display-values@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-display-values/-/postcss-normalize-display-values-5.1.0.tgz"
+postcss-normalize-display-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-display-values/-/postcss-normalize-display-values-6.0.0.tgz#8d2961415078644d8c6bbbdaf9a2fdd60f546cd4"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-positions@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-positions/-/postcss-normalize-positions-5.1.1.tgz"
+postcss-normalize-positions@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-positions/-/postcss-normalize-positions-6.0.0.tgz#25b96df99a69f8925f730eaee0be74416865e301"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-repeat-style@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-5.1.1.tgz"
+postcss-normalize-repeat-style@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-6.0.0.tgz#ddf30ad8762feb5b1eb97f39f251acd7b8353299"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-string@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-string/-/postcss-normalize-string-5.1.0.tgz"
+postcss-normalize-string@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-string/-/postcss-normalize-string-6.0.0.tgz#948282647a51e409d69dde7910f0ac2ff97cb5d8"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-timing-functions@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-5.1.0.tgz"
+postcss-normalize-timing-functions@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-6.0.0.tgz#5f13e650b8c43351989fc5de694525cc2539841c"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-unicode@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-unicode/-/postcss-normalize-unicode-5.1.1.tgz"
+postcss-normalize-unicode@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-unicode/-/postcss-normalize-unicode-6.0.0.tgz#741b3310f874616bdcf07764f5503695d3604730"
   dependencies:
     browserslist "^4.21.4"
     postcss-value-parser "^4.2.0"
 
-postcss-normalize-url@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-normalize-url/-/postcss-normalize-url-5.1.0.tgz"
-  dependencies:
-    normalize-url "^6.0.1"
-    postcss-value-parser "^4.2.0"
-
-postcss-normalize-whitespace@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-normalize-whitespace/-/postcss-normalize-whitespace-5.1.1.tgz"
+postcss-normalize-url@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-url/-/postcss-normalize-url-6.0.0.tgz#d0a31e962a16401fb7deb7754b397a323fb650b4"
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-ordered-values@^5.1.3:
-  version "5.1.3"
-  resolved "https://registry.npmjs.org/postcss-ordered-values/-/postcss-ordered-values-5.1.3.tgz"
+postcss-normalize-whitespace@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-whitespace/-/postcss-normalize-whitespace-6.0.0.tgz#accb961caa42e25ca4179b60855b79b1f7129d4d"
   dependencies:
-    cssnano-utils "^3.1.0"
     postcss-value-parser "^4.2.0"
 
-postcss-reduce-initial@^5.1.2:
-  version "5.1.2"
-  resolved "https://registry.npmjs.org/postcss-reduce-initial/-/postcss-reduce-initial-5.1.2.tgz"
+postcss-ordered-values@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-ordered-values/-/postcss-ordered-values-6.0.0.tgz#374704cdff25560d44061d17ba3c6308837a3218"
+  dependencies:
+    cssnano-utils "^4.0.0"
+    postcss-value-parser "^4.2.0"
+
+postcss-reduce-initial@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-initial/-/postcss-reduce-initial-6.0.0.tgz#7d16e83e60e27e2fa42f56ec0b426f1da332eca7"
   dependencies:
     browserslist "^4.21.4"
     caniuse-api "^3.0.0"
 
-postcss-reduce-transforms@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-reduce-transforms/-/postcss-reduce-transforms-5.1.0.tgz"
+postcss-reduce-transforms@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-transforms/-/postcss-reduce-transforms-6.0.0.tgz#28ff2601a6d9b96a2f039b3501526e1f4d584a46"
   dependencies:
     postcss-value-parser "^4.2.0"
 
@@ -4617,16 +4712,16 @@ postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss-svgo@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/postcss-svgo/-/postcss-svgo-5.1.0.tgz"
+postcss-svgo@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-svgo/-/postcss-svgo-6.0.0.tgz#7b18742d38d4505a0455bbe70d52b49f00eaf69d"
   dependencies:
     postcss-value-parser "^4.2.0"
-    svgo "^2.7.0"
+    svgo "^3.0.2"
 
-postcss-unique-selectors@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/postcss-unique-selectors/-/postcss-unique-selectors-5.1.1.tgz"
+postcss-unique-selectors@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-unique-selectors/-/postcss-unique-selectors-6.0.0.tgz#c94e9b0f7bffb1203894e42294b5a1b3fb34fbe1"
   dependencies:
     postcss-selector-parser "^6.0.5"
 
@@ -4972,7 +5067,7 @@ rollup@^3.10.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rollup@^3.18.0, rollup@^3.20.0, rollup@^3.20.2:
+rollup@^3.18.0, rollup@^3.20.0:
   version "3.20.2"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.20.2.tgz#f798c600317f216de2e4ad9f4d9ab30a89b690ff"
   optionalDependencies:
@@ -5237,7 +5332,7 @@ socket.io-parser@~4.2.1:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.3.1"
 
-"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
 
@@ -5263,10 +5358,6 @@ sourcemap-codec@^1.4.8:
 space-separated-tokens@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmjs.org/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz"
-
-stable@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.npmjs.org/stable/-/stable-0.1.8.tgz"
 
 standard-as-callback@^2.1.0:
   version "2.1.0"
@@ -5355,9 +5446,9 @@ strip-literal@^1.0.0, strip-literal@^1.0.1:
   dependencies:
     acorn "^8.8.2"
 
-stylehacks@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.npmjs.org/stylehacks/-/stylehacks-5.1.1.tgz"
+stylehacks@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-6.0.0.tgz#9fdd7c217660dae0f62e14d51c89f6c01b3cb738"
   dependencies:
     browserslist "^4.21.4"
     postcss-selector-parser "^6.0.4"
@@ -5386,17 +5477,16 @@ svg2png-wasm@^1.3.4:
   version "1.3.4"
   resolved "https://registry.npmjs.org/svg2png-wasm/-/svg2png-wasm-1.3.4.tgz"
 
-svgo@^2.7.0:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/svgo/-/svgo-2.8.0.tgz"
+svgo@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/svgo/-/svgo-3.0.2.tgz#5e99eeea42c68ee0dc46aa16da093838c262fe0a"
   dependencies:
     "@trysound/sax" "0.2.0"
     commander "^7.2.0"
-    css-select "^4.1.3"
-    css-tree "^1.1.3"
-    csso "^4.2.0"
+    css-select "^5.1.0"
+    css-tree "^2.2.1"
+    csso "^5.0.5"
     picocolors "^1.0.0"
-    stable "^0.1.8"
 
 tapable@^1.0.0:
   version "1.1.3"
@@ -5544,16 +5634,7 @@ uncrypto@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/uncrypto/-/uncrypto-0.1.2.tgz"
 
-unctx@^2.1.1, unctx@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/unctx/-/unctx-2.1.2.tgz"
-  dependencies:
-    acorn "^8.8.2"
-    estree-walker "^3.0.3"
-    magic-string "^0.27.0"
-    unplugin "^1.0.1"
-
-unctx@^2.2.0:
+unctx@^2.1.1, unctx@^2.1.2, unctx@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/unctx/-/unctx-2.2.0.tgz#454f1a61c9c6bff24d42db3a817d3273eb1be736"
   dependencies:
@@ -5579,6 +5660,15 @@ unhead@1.1.23, unhead@^1.1.20:
     "@unhead/schema" "1.1.23"
     "@unhead/shared" "1.1.23"
     hookable "^5.4.2"
+
+unhead@1.1.26:
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.1.26.tgz#eabbe50a845c60cefd93445e3c6488db41c0d4ce"
+  dependencies:
+    "@unhead/dom" "1.1.26"
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+    hookable "^5.5.3"
 
 unicode-trie@^2.0.0:
   version "2.0.0"
@@ -5615,23 +5705,7 @@ unimport@^2.0.1, unimport@^2.2.4:
     strip-literal "^1.0.0"
     unplugin "^1.0.1"
 
-unimport@^3.0.2, unimport@^3.0.3, unimport@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.0.4.tgz#b54d414b0f78673e76c9cbc2568b915c2d64b7c9"
-  dependencies:
-    "@rollup/pluginutils" "^5.0.2"
-    escape-string-regexp "^5.0.0"
-    fast-glob "^3.2.12"
-    local-pkg "^0.4.3"
-    magic-string "^0.30.0"
-    mlly "^1.2.0"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    scule "^1.0.0"
-    strip-literal "^1.0.1"
-    unplugin "^1.3.1"
-
-unimport@^3.0.6:
+unimport@^3.0.2, unimport@^3.0.3, unimport@^3.0.4, unimport@^3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.0.6.tgz#20caac4cf9a94e9233cdbe3a16f7599ae75a7df8"
   dependencies:
@@ -5734,16 +5808,7 @@ unstorage@^1.3.0, unstorage@^1.4.1:
     ofetch "^1.0.1"
     ufo "^1.1.1"
 
-untyped@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/untyped/-/untyped-1.2.2.tgz"
-  dependencies:
-    "@babel/core" "^7.20.12"
-    "@babel/standalone" "^7.20.12"
-    "@babel/types" "^7.20.7"
-    scule "^1.0.0"
-
-untyped@^1.3.2:
+untyped@^1.2.2, untyped@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/untyped/-/untyped-1.3.2.tgz#0cff7ae9acf373dc404315b0e3c604af10648113"
   dependencies:
@@ -5815,9 +5880,9 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vite-node@^0.29.7:
-  version "0.29.7"
-  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.29.7.tgz#b5cc4745e1fdb984538f8f5745163111a4ae6d5a"
+vite-node@^0.29.8:
+  version "0.29.8"
+  resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.29.8.tgz#6a1c9d4fb31e7b4e0f825d3a37abe3404e52bd8e"
   dependencies:
     cac "^6.7.14"
     debug "^4.3.4"
@@ -5906,11 +5971,11 @@ vscode-uri@^3.0.2:
   version "3.0.7"
   resolved "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.7.tgz"
 
-vue-bundle-renderer@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/vue-bundle-renderer/-/vue-bundle-renderer-1.0.2.tgz"
+vue-bundle-renderer@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue-bundle-renderer/-/vue-bundle-renderer-1.0.3.tgz#422438aa4a024e2833e87a5a2d0b97c6c12fb2d8"
   dependencies:
-    ufo "^1.1.0"
+    ufo "^1.1.1"
 
 vue-devtools-stub@^0.1.0:
   version "0.1.0"
@@ -6043,10 +6108,6 @@ yallist@^3.0.2:
 yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
-
-yaml@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
 
 yargs-parser@^21.1.1:
   version "21.1.1"
