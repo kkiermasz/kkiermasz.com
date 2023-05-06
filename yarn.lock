@@ -699,52 +699,6 @@
   optionalDependencies:
     ipx "1.0.0"
 
-"@nuxt/kit@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.1.1.tgz"
-  dependencies:
-    "@nuxt/schema" "3.1.1"
-    c12 "^1.1.0"
-    consola "^2.15.3"
-    defu "^6.1.2"
-    globby "^13.1.3"
-    hash-sum "^2.0.0"
-    ignore "^5.2.4"
-    jiti "^1.16.2"
-    knitwork "^1.0.0"
-    lodash.template "^4.5.0"
-    mlly "^1.1.0"
-    pathe "^1.1.0"
-    pkg-types "^1.0.1"
-    scule "^1.0.0"
-    semver "^7.3.8"
-    unctx "^2.1.1"
-    unimport "^2.0.1"
-    untyped "^1.2.2"
-
-"@nuxt/kit@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.2.2.tgz"
-  dependencies:
-    "@nuxt/schema" "3.2.2"
-    c12 "^1.1.2"
-    consola "^2.15.3"
-    defu "^6.1.2"
-    globby "^13.1.3"
-    hash-sum "^2.0.0"
-    ignore "^5.2.4"
-    jiti "^1.17.1"
-    knitwork "^1.0.0"
-    lodash.template "^4.5.0"
-    mlly "^1.1.1"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    scule "^1.0.0"
-    semver "^7.3.8"
-    unctx "^2.1.2"
-    unimport "^2.2.4"
-    untyped "^1.2.2"
-
 "@nuxt/kit@3.2.3":
   version "3.2.3"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.2.3.tgz"
@@ -766,29 +720,6 @@
     semver "^7.3.8"
     unctx "^2.1.2"
     unimport "^2.2.4"
-    untyped "^1.2.2"
-
-"@nuxt/kit@3.3.1":
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.3.1.tgz"
-  dependencies:
-    "@nuxt/schema" "3.3.1"
-    c12 "^1.2.0"
-    consola "^2.15.3"
-    defu "^6.1.2"
-    globby "^13.1.3"
-    hash-sum "^2.0.0"
-    ignore "^5.2.4"
-    jiti "^1.17.2"
-    knitwork "^1.0.0"
-    lodash.template "^4.5.0"
-    mlly "^1.2.0"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    scule "^1.0.0"
-    semver "^7.3.8"
-    unctx "^2.1.2"
-    unimport "^3.0.2"
     untyped "^1.2.2"
 
 "@nuxt/kit@3.3.2":
@@ -814,15 +745,15 @@
     unimport "^3.0.4"
     untyped "^1.2.2"
 
-"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.2.3", "@nuxt/kit@^3.3.1", "@nuxt/kit@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.0.tgz#6b5df545f73b0279420ad17944a9b58293edc842"
+"@nuxt/kit@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.1.tgz#18608db1ec28c9cf216c41d86535882cf8e838ec"
   dependencies:
-    "@nuxt/schema" "3.4.0"
+    "@nuxt/schema" "3.4.1"
     c12 "^1.2.0"
     consola "^3.0.1"
     defu "^6.1.2"
-    globby "^13.1.3"
+    globby "^13.1.4"
     hash-sum "^2.0.0"
     ignore "^5.2.4"
     jiti "^1.18.2"
@@ -837,41 +768,51 @@
     unimport "^3.0.6"
     untyped "^1.3.2"
 
-"@nuxt/schema@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.1.1.tgz"
+"@nuxt/kit@3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.2.tgz#a7ae05f154c43560f18dd56c49df1b23a2c2553b"
   dependencies:
-    c12 "^1.1.0"
-    create-require "^1.1.1"
+    "@nuxt/schema" "3.4.2"
+    c12 "^1.4.1"
+    consola "^3.1.0"
     defu "^6.1.2"
-    hookable "^5.4.2"
-    jiti "^1.16.2"
-    pathe "^1.1.0"
-    pkg-types "^1.0.1"
-    postcss-import-resolver "^2.0.0"
-    scule "^1.0.0"
-    std-env "^3.3.1"
-    ufo "^1.0.1"
-    unimport "^2.0.1"
-    untyped "^1.2.2"
-
-"@nuxt/schema@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.2.2.tgz"
-  dependencies:
-    c12 "^1.1.2"
-    create-require "^1.1.1"
-    defu "^6.1.2"
-    hookable "^5.4.2"
-    jiti "^1.17.1"
+    globby "^13.1.4"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.18.2"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.2.0"
     pathe "^1.1.0"
     pkg-types "^1.0.2"
-    postcss-import-resolver "^2.0.0"
     scule "^1.0.0"
-    std-env "^3.3.2"
-    ufo "^1.1.0"
-    unimport "^2.2.4"
-    untyped "^1.2.2"
+    semver "^7.5.0"
+    unctx "^2.3.0"
+    unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.2.3", "@nuxt/kit@^3.4.0", "@nuxt/kit@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.3.tgz#2ab6efb0a4db7b4e5f4d8d7d7e696fa30a6e8771"
+  dependencies:
+    "@nuxt/schema" "3.4.3"
+    c12 "^1.4.1"
+    consola "^3.1.0"
+    defu "^6.1.2"
+    globby "^13.1.4"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.18.2"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    scule "^1.0.0"
+    semver "^7.5.0"
+    unctx "^2.3.0"
+    unimport "^3.0.6"
+    untyped "^1.3.2"
 
 "@nuxt/schema@3.2.3":
   version "3.2.3"
@@ -889,24 +830,6 @@
     std-env "^3.3.2"
     ufo "^1.1.1"
     unimport "^2.2.4"
-    untyped "^1.2.2"
-
-"@nuxt/schema@3.3.1":
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.3.1.tgz"
-  dependencies:
-    c12 "^1.2.0"
-    create-require "^1.1.1"
-    defu "^6.1.2"
-    hookable "^5.5.0"
-    jiti "^1.17.2"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    postcss-import-resolver "^2.0.0"
-    scule "^1.0.0"
-    std-env "^3.3.2"
-    ufo "^1.1.1"
-    unimport "^3.0.2"
     untyped "^1.2.2"
 
 "@nuxt/schema@3.3.2":
@@ -927,9 +850,9 @@
     unimport "^3.0.4"
     untyped "^1.2.2"
 
-"@nuxt/schema@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.4.0.tgz#01612d8065b67ab92628036887eafceab4adad9a"
+"@nuxt/schema@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.4.1.tgz#83d83015090cac780239dca95ff831cdb9f49e9b"
   dependencies:
     c12 "^1.2.0"
     create-require "^1.1.1"
@@ -940,6 +863,34 @@
     pkg-types "^1.0.2"
     postcss-import-resolver "^2.0.0"
     scule "^1.0.0"
+    std-env "^3.3.2"
+    ufo "^1.1.1"
+    unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/schema@3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.4.2.tgz#1cdafdc3246027bb9964c2ccb172003213c4d989"
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.3.2"
+    ufo "^1.1.1"
+    unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/schema@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.4.3.tgz#106548003b7bbc40428b2af290b31b1e89acffc5"
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    postcss-import-resolver "^2.0.0"
     std-env "^3.3.2"
     ufo "^1.1.1"
     unimport "^3.0.6"
@@ -1183,36 +1134,50 @@
   version "2.0.6"
   resolved "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"
 
-"@unhead/addons@^1.1.20":
-  version "1.1.23"
-  resolved "https://registry.npmjs.org/@unhead/addons/-/addons-1.1.23.tgz"
+"@unhead/addons@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/addons/-/addons-1.1.26.tgz#4c353b63428c35ca0abb5c4199d12056573e4bc2"
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
-    "@unhead/schema" "1.1.23"
-    "@unhead/shared" "1.1.23"
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
     magic-string "^0.30.0"
-    mlly "^1.1.1"
+    mlly "^1.2.0"
     ufo "^1.1.1"
-    unhead "1.1.23"
-    unplugin "^1.1.0"
+    unhead "1.1.26"
+    unplugin "^1.3.1"
     unplugin-ast "^0.7.0"
 
-"@unhead/dom@1.1.23", "@unhead/dom@^1.1.23":
+"@unhead/dom@1.1.23":
   version "1.1.23"
   resolved "https://registry.npmjs.org/@unhead/dom/-/dom-1.1.23.tgz"
   dependencies:
     "@unhead/schema" "1.1.23"
     "@unhead/shared" "1.1.23"
 
+"@unhead/dom@1.1.26", "@unhead/dom@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.1.26.tgz#1edfdb5bf686436b0521fd34690a8e195c06f117"
+  dependencies:
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+
 "@unhead/schema-org-vue@^0.5.0":
   version "0.5.0"
   resolved "https://registry.npmjs.org/@unhead/schema-org-vue/-/schema-org-vue-0.5.0.tgz"
 
-"@unhead/schema@1.1.23", "@unhead/schema@^1.1.23":
+"@unhead/schema@1.1.23":
   version "1.1.23"
   resolved "https://registry.npmjs.org/@unhead/schema/-/schema-1.1.23.tgz"
   dependencies:
     hookable "^5.4.2"
+    zhead "^2.0.4"
+
+"@unhead/schema@1.1.26", "@unhead/schema@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.1.26.tgz#4b2e0c8cf0139cbae49d7d86fa2223d8e982af80"
+  dependencies:
+    hookable "^5.5.3"
     zhead "^2.0.4"
 
 "@unhead/shared@1.1.23":
@@ -1221,12 +1186,25 @@
   dependencies:
     "@unhead/schema" "1.1.23"
 
+"@unhead/shared@1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.1.26.tgz#51135d9e29c36848abbd76ff7da6fd47e1305688"
+  dependencies:
+    "@unhead/schema" "1.1.26"
+
 "@unhead/ssr@^1.1.23":
   version "1.1.23"
   resolved "https://registry.npmjs.org/@unhead/ssr/-/ssr-1.1.23.tgz"
   dependencies:
     "@unhead/schema" "1.1.23"
     "@unhead/shared" "1.1.23"
+
+"@unhead/ssr@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/ssr/-/ssr-1.1.26.tgz#2d30085ed99025c41cede1d2d17fe1a2d668d958"
+  dependencies:
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
 
 "@unhead/vue@^1.1.23":
   version "1.1.23"
@@ -1236,6 +1214,15 @@
     "@unhead/shared" "1.1.23"
     hookable "^5.4.2"
     unhead "1.1.23"
+
+"@unhead/vue@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.1.26.tgz#0a0ccdd0d7b223520d1a1563fa11c8775235e41e"
+  dependencies:
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+    hookable "^5.5.3"
+    unhead "1.1.26"
 
 "@vercel/nft@^0.22.6":
   version "0.22.6"
@@ -1367,14 +1354,14 @@
   version "3.2.47"
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.2.47.tgz"
 
-"@vueuse/head@^1.1.19":
-  version "1.1.23"
-  resolved "https://registry.npmjs.org/@vueuse/head/-/head-1.1.23.tgz"
+"@vueuse/head@^1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-1.1.26.tgz#45bfbbb006b50a6fb07aa72cf7208e69e0fb9e98"
   dependencies:
-    "@unhead/dom" "^1.1.23"
-    "@unhead/schema" "^1.1.23"
-    "@unhead/ssr" "^1.1.23"
-    "@unhead/vue" "^1.1.23"
+    "@unhead/dom" "^1.1.26"
+    "@unhead/schema" "^1.1.26"
+    "@unhead/ssr" "^1.1.26"
+    "@unhead/vue" "^1.1.26"
 
 "@zeit/schemas@2.29.0":
   version "2.29.0"
@@ -1649,7 +1636,7 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
 
-c12@^1.1.0, c12@^1.1.2, c12@^1.2.0:
+c12@^1.1.2, c12@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/c12/-/c12-1.2.0.tgz"
   dependencies:
@@ -1661,6 +1648,22 @@ c12@^1.1.0, c12@^1.1.2, c12@^1.2.0:
     pathe "^1.1.0"
     pkg-types "^1.0.2"
     rc9 "^2.0.1"
+
+c12@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/c12/-/c12-1.4.1.tgz#37a98e848fe528b5f6ece51d52d409dd2af8ae07"
+  dependencies:
+    chokidar "^3.5.3"
+    defu "^6.1.2"
+    dotenv "^16.0.3"
+    giget "^1.1.2"
+    jiti "^1.18.2"
+    mlly "^1.2.0"
+    ohash "^1.1.1"
+    pathe "^1.1.0"
+    perfect-debounce "^0.1.3"
+    pkg-types "^1.0.2"
+    rc9 "^2.1.0"
 
 cac@^6.7.14:
   version "6.7.14"
@@ -1952,6 +1955,10 @@ consola@^2.15.3:
 consola@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/consola/-/consola-3.0.1.tgz#d68680c3b28cc6b260f7fe771f52e04fe01ca4d4"
+
+consola@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-3.1.0.tgz#dfdfa62ceb68bc1f06e4a76ad688566bd8813baf"
 
 console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   version "1.1.0"
@@ -2733,6 +2740,16 @@ globby@^13.1.3:
     merge2 "^1.4.1"
     slash "^4.0.0"
 
+globby@^13.1.4:
+  version "13.1.4"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.4.tgz#2f91c116066bcec152465ba36e5caa4a13c01317"
+  dependencies:
+    dir-glob "^3.0.1"
+    fast-glob "^3.2.11"
+    ignore "^5.2.0"
+    merge2 "^1.4.1"
+    slash "^4.0.0"
+
 google-fonts-helper@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-3.2.4.tgz#8b3b252f13f98bea7c9d46d921ed680b5f05852a"
@@ -3158,7 +3175,7 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
 
-jiti@^1.16.2, jiti@^1.17.1, jiti@^1.17.2, jiti@^1.18.2:
+jiti@^1.17.1, jiti@^1.17.2, jiti@^1.18.2:
   version "1.18.2"
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.18.2.tgz"
 
@@ -4109,21 +4126,21 @@ nuxt-cloudflare-analytics@^1.0.8:
   dependencies:
     "@nuxt/kit" "^3.0.0"
 
-nuxt-link-checker@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/nuxt-link-checker/-/nuxt-link-checker-1.0.3.tgz"
+nuxt-link-checker@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/nuxt-link-checker/-/nuxt-link-checker-1.0.4.tgz#608ab97dd2e969bcbb46a76ae3fddcecf5646d85"
   dependencies:
-    "@nuxt/kit" "3.1.1"
+    "@nuxt/kit" "3.4.1"
     chalk "^5.2.0"
     cheerio "1.0.0-rc.12"
-    radix3 "^1.0.0"
-    ufo "^1.0.1"
+    radix3 "^1.0.1"
+    ufo "^1.1.1"
 
-nuxt-og-image@^1.5.5:
-  version "1.5.5"
-  resolved "https://registry.npmjs.org/nuxt-og-image/-/nuxt-og-image-1.5.5.tgz"
+nuxt-og-image@^1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/nuxt-og-image/-/nuxt-og-image-1.5.9.tgz#2b137f9b2a1a45fdd4377ba6a49b512b1ac0d656"
   dependencies:
-    "@nuxt/kit" "3.3.1"
+    "@nuxt/kit" "3.4.2"
     "@types/fs-extra" "^11.0.1"
     birpc "^0.2.8"
     chalk "^5.2.0"
@@ -4149,60 +4166,60 @@ nuxt-og-image@^1.5.5:
     ws "^8.13.0"
     yoga-wasm-web "^0.3.3"
 
-nuxt-schema-org@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/nuxt-schema-org/-/nuxt-schema-org-2.1.2.tgz"
+nuxt-schema-org@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/nuxt-schema-org/-/nuxt-schema-org-2.1.3.tgz#dcaf518da9cdbea6ca0582eef87e10898a9bb286"
   dependencies:
-    "@nuxt/kit" "3.2.2"
+    "@nuxt/kit" "3.4.2"
     "@unhead/schema-org-vue" "^0.5.0"
     pathe "^1.1.0"
 
-nuxt-seo-kit@^1.3.5:
-  version "1.3.5"
-  resolved "https://registry.npmjs.org/nuxt-seo-kit/-/nuxt-seo-kit-1.3.5.tgz"
+nuxt-seo-kit@^1.3.8:
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/nuxt-seo-kit/-/nuxt-seo-kit-1.3.8.tgz#ce4ca420224afad5875e347889f69566b1431597"
   dependencies:
-    "@nuxt/kit" "^3.3.1"
+    "@nuxt/kit" "^3.4.3"
     defu "^6.1.2"
-    nuxt-link-checker "^1.0.3"
-    nuxt-og-image "^1.5.5"
-    nuxt-schema-org "2.1.2"
-    nuxt-simple-robots "^1.0.5"
-    nuxt-simple-sitemap "^1.0.9"
-    nuxt-unhead "^1.4.15"
+    nuxt-link-checker "^1.0.4"
+    nuxt-og-image "^1.5.9"
+    nuxt-schema-org "^2.1.3"
+    nuxt-simple-robots "^1.0.9"
+    nuxt-simple-sitemap "^1.0.11"
+    nuxt-unhead "^1.4.17"
     ufo "^1.1.1"
 
-nuxt-simple-robots@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/nuxt-simple-robots/-/nuxt-simple-robots-1.0.5.tgz"
+nuxt-simple-robots@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/nuxt-simple-robots/-/nuxt-simple-robots-1.0.9.tgz#0a5d083b5f044fe72db07058d6530073ad5fb7bc"
   dependencies:
-    "@nuxt/kit" "3.2.3"
+    "@nuxt/kit" "3.4.2"
     pathe "^1.1.0"
     ufo "^1.1.1"
 
-nuxt-simple-sitemap@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.npmjs.org/nuxt-simple-sitemap/-/nuxt-simple-sitemap-1.0.9.tgz"
+nuxt-simple-sitemap@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/nuxt-simple-sitemap/-/nuxt-simple-sitemap-1.0.11.tgz#e4c86878a34f4fc45be287cdc7983882d06941c7"
   dependencies:
-    "@nuxt/kit" "3.2.3"
+    "@nuxt/kit" "3.4.2"
     chalk "^5.2.0"
     defu "^6.1.2"
     escape-string-regexp "^5.0.0"
     knitwork "^1.0.0"
     pathe "^1.1.0"
-    radix3 "^1.0.0"
+    radix3 "^1.0.1"
     sitemap "^7.1.1"
     ufo "^1.1.1"
 
-nuxt-unhead@^1.4.15:
-  version "1.4.15"
-  resolved "https://registry.npmjs.org/nuxt-unhead/-/nuxt-unhead-1.4.15.tgz"
+nuxt-unhead@^1.4.17:
+  version "1.4.17"
+  resolved "https://registry.yarnpkg.com/nuxt-unhead/-/nuxt-unhead-1.4.17.tgz#3ad5e7d9446a11082b75d332ca52ee6f65e70b13"
   dependencies:
-    "@nuxt/kit" "3.2.3"
-    "@unhead/addons" "^1.1.20"
-    "@vueuse/head" "^1.1.19"
+    "@nuxt/kit" "3.4.2"
+    "@unhead/addons" "^1.1.26"
+    "@vueuse/head" "^1.1.26"
     fast-glob "^3.2.12"
     pathe "^1.1.0"
-    unhead "^1.1.20"
+    unhead "^1.1.26"
 
 nuxt@^3.3.2:
   version "3.3.2"
@@ -4267,6 +4284,10 @@ ofetch@^1.0.1:
 ohash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/ohash/-/ohash-1.0.0.tgz"
+
+ohash@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.2.tgz#902dd01484f5573ef941d8f9e81105a2e13fd9ba"
 
 on-finished@2.4.1:
   version "2.4.1"
@@ -4737,6 +4758,14 @@ rc9@^2.0.1:
     destr "^1.2.2"
     flat "^5.0.2"
 
+rc9@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/rc9/-/rc9-2.1.0.tgz#57d3a01e55907393ef9bd0cc29f2bd66a6cd0972"
+  dependencies:
+    defu "^6.1.2"
+    destr "^1.2.2"
+    flat "^5.0.2"
+
 rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
   version "1.2.8"
   resolved "https://registry.npmjs.org/rc/-/rc-1.2.8.tgz"
@@ -5063,6 +5092,12 @@ semver@^7.4.0:
   dependencies:
     lru-cache "^6.0.0"
 
+semver@^7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
+  dependencies:
+    lru-cache "^6.0.0"
+
 send@0.18.0:
   version "0.18.0"
   resolved "https://registry.npmjs.org/send/-/send-0.18.0.tgz"
@@ -5276,7 +5311,7 @@ statuses@2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz"
 
-std-env@^3.3.1, std-env@^3.3.2:
+std-env@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.2.tgz"
 
@@ -5532,7 +5567,7 @@ type-fest@^3.0.0:
   version "3.6.1"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-3.6.1.tgz"
 
-ufo@^1.0.0, ufo@^1.0.1, ufo@^1.1.0, ufo@^1.1.1:
+ufo@^1.0.0, ufo@^1.1.0, ufo@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/ufo/-/ufo-1.1.1.tgz"
 
@@ -5544,7 +5579,7 @@ uncrypto@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/uncrypto/-/uncrypto-0.1.2.tgz"
 
-unctx@^2.1.1, unctx@^2.1.2:
+unctx@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/unctx/-/unctx-2.1.2.tgz"
   dependencies:
@@ -5562,6 +5597,15 @@ unctx@^2.2.0:
     magic-string "^0.30.0"
     unplugin "^1.3.1"
 
+unctx@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/unctx/-/unctx-2.3.0.tgz#abb1eaf1f5417d9562b3c43a90aba259a869c96d"
+  dependencies:
+    acorn "^8.8.2"
+    estree-walker "^3.0.3"
+    magic-string "^0.30.0"
+    unplugin "^1.3.1"
+
 unenv@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/unenv/-/unenv-1.2.2.tgz"
@@ -5571,7 +5615,7 @@ unenv@^1.2.2:
     node-fetch-native "^1.0.2"
     pathe "^1.1.0"
 
-unhead@1.1.23, unhead@^1.1.20:
+unhead@1.1.23:
   version "1.1.23"
   resolved "https://registry.npmjs.org/unhead/-/unhead-1.1.23.tgz"
   dependencies:
@@ -5579,6 +5623,15 @@ unhead@1.1.23, unhead@^1.1.20:
     "@unhead/schema" "1.1.23"
     "@unhead/shared" "1.1.23"
     hookable "^5.4.2"
+
+unhead@1.1.26, unhead@^1.1.26:
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.1.26.tgz#eabbe50a845c60cefd93445e3c6488db41c0d4ce"
+  dependencies:
+    "@unhead/dom" "1.1.26"
+    "@unhead/schema" "1.1.26"
+    "@unhead/shared" "1.1.26"
+    hookable "^5.5.3"
 
 unicode-trie@^2.0.0:
   version "2.0.0"
@@ -5599,7 +5652,7 @@ unified@^10.0.0, unified@^10.1.2:
     trough "^2.0.0"
     vfile "^5.0.0"
 
-unimport@^2.0.1, unimport@^2.2.4:
+unimport@^2.2.4:
   version "2.2.4"
   resolved "https://registry.npmjs.org/unimport/-/unimport-2.2.4.tgz"
   dependencies:
@@ -5615,7 +5668,7 @@ unimport@^2.0.1, unimport@^2.2.4:
     strip-literal "^1.0.0"
     unplugin "^1.0.1"
 
-unimport@^3.0.2, unimport@^3.0.3, unimport@^3.0.4:
+unimport@^3.0.3, unimport@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.0.4.tgz#b54d414b0f78673e76c9cbc2568b915c2d64b7c9"
   dependencies:
@@ -5709,7 +5762,7 @@ unplugin-ast@^0.7.0:
     magic-string "^0.27.0"
     unplugin "^1.0.1"
 
-unplugin@^1.0.1, unplugin@^1.1.0, unplugin@^1.3.1:
+unplugin@^1.0.1, unplugin@^1.3.1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/unplugin/-/unplugin-1.3.1.tgz"
   dependencies:
