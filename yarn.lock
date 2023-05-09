@@ -679,9 +679,9 @@
   version "2.0.0"
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.0.tgz"
 
-"@nuxt/image-edge@1.0.0-28050764.aaee7ac":
-  version "1.0.0-28050764.aaee7ac"
-  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-28050764.aaee7ac.tgz#74082f2354db9ec6135946f80cba53f4a5490261"
+"@nuxt/image-edge@1.0.0-28059208.2abef1b":
+  version "1.0.0-28059208.2abef1b"
+  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-28059208.2abef1b.tgz#a4c26e031848d993eb2a2f03d67edc710c150921"
   dependencies:
     "@nuxt/kit" "^3.4.0"
     consola "^3.0.1"
@@ -1948,11 +1948,7 @@ consola@^2.15.3:
   version "2.15.3"
   resolved "https://registry.npmjs.org/consola/-/consola-2.15.3.tgz"
 
-consola@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-3.0.1.tgz#d68680c3b28cc6b260f7fe771f52e04fe01ca4d4"
-
-consola@^3.1.0:
+consola@^3.0.1, consola@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/consola/-/consola-3.1.0.tgz#dfdfa62ceb68bc1f06e4a76ad688566bd8813baf"
 
@@ -4277,11 +4273,7 @@ ofetch@^1.0.1:
     node-fetch-native "^1.0.2"
     ufo "^1.1.0"
 
-ohash@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/ohash/-/ohash-1.0.0.tgz"
-
-ohash@^1.1.1:
+ohash@^1.0.0, ohash@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/ohash/-/ohash-1.1.2.tgz#902dd01484f5573ef941d8f9e81105a2e13fd9ba"
 
@@ -5077,12 +5069,6 @@ semver@^6.0.0, semver@^6.3.0:
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
 
 semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.4.0, semver@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
-  dependencies:
-    lru-cache "^6.0.0"
-
-semver@^7.5.0:
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
   dependencies:
