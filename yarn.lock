@@ -5082,12 +5082,6 @@ semver@^7.3.4, semver@^7.3.5, semver@^7.3.8, semver@^7.4.0, semver@^7.5.0:
   dependencies:
     lru-cache "^6.0.0"
 
-semver@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
-  dependencies:
-    lru-cache "^6.0.0"
-
 send@0.18.0:
   version "0.18.0"
   resolved "https://registry.npmjs.org/send/-/send-0.18.0.tgz"
@@ -5975,9 +5969,9 @@ vue@^3.2.47:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-vuetify@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.2.2.tgz#a4a39bec15e96b4f9f9be6353e19f156abd91c35"
+vuetify@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.2.4.tgz#e31e23305b23d2a08ccbb845e295ff07d4c1a71f"
 
 wcwidth@^1.0.1:
   version "1.0.1"
