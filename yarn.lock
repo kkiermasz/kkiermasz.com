@@ -679,9 +679,9 @@
   version "2.0.0"
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.0.tgz"
 
-"@nuxt/image-edge@1.0.0-28092818.5c21f4c":
-  version "1.0.0-28092818.5c21f4c"
-  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-28092818.5c21f4c.tgz#5134cb27c16e34f57b3b2867dae1f520af4f0611"
+"@nuxt/image-edge@1.0.0-28094330.102af81":
+  version "1.0.0-28094330.102af81"
+  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-28094330.102af81.tgz#079328a02012d8f3d4c44b50189e933d6d48dd5d"
   dependencies:
     "@nuxt/kit" "^3.5.2"
     consola "^3.1.0"
