@@ -18,8 +18,8 @@ dependencies:
     specifier: ^1.62.1
     version: 1.63.4
   vuetify:
-    specifier: ^3.3.6
-    version: 3.3.6(vue@3.3.4)
+    specifier: ^3.3.8
+    version: 3.3.8(vue@3.3.4)
 
 devDependencies:
   '@fortawesome/fontawesome-free':
@@ -6899,8 +6899,8 @@ packages:
       '@vue/server-renderer': 3.3.4(vue@3.3.4)
       '@vue/shared': 3.3.4
 
-  /vuetify@3.3.6(vue@3.3.4):
-    resolution: {integrity: sha512-9QHh3mY5dK2Y4FGGBHFaIl/RVoP3Wg+XzP/pvruAoglIsUqzMlHrUOYAjO6/SWTxmhsiPI1jl4TyEBlppMXtNQ==}
+  /vuetify@3.3.8(vue@3.3.4):
+    resolution: {integrity: sha512-m88MUczIeyNXfINnklBhat2fRknOUmeWyxgGTOZI5b95j9JTZwPH0b1z979nS6gJIyhPDVTuZSS/abp5aUyGBA==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
