@@ -647,45 +647,46 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt/content@^2.5.2":
-  version "2.5.2"
-  resolved "https://registry.npmjs.org/@nuxt/content/-/content-2.5.2.tgz"
+"@nuxt/content@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.7.2.tgz#ecb997bbcf4cd559faf01f5688be3d9a4bd3a1c3"
   dependencies:
-    "@nuxt/kit" "3.2.3"
-    consola "^2.15.3"
+    "@nuxt/kit" "^3.6.3"
+    consola "^3.2.3"
     defu "^6.1.2"
-    destr "^1.2.2"
+    destr "^2.0.0"
     detab "^3.0.2"
     json5 "^2.2.3"
     knitwork "^1.0.0"
-    listhen "^1.0.3"
+    listhen "^1.1.1"
     mdast-util-to-hast "^12.3.0"
     mdurl "^1.0.1"
-    ohash "^1.0.0"
-    pathe "^1.1.0"
+    ohash "^1.1.2"
+    pathe "^1.1.1"
     property-information "^6.2.0"
-    rehype-external-links "^2.0.1"
+    rehype-external-links "^2.1.0"
     rehype-raw "^6.1.1"
     rehype-slug "^5.1.0"
     rehype-sort-attribute-values "^4.0.0"
     rehype-sort-attributes "^4.0.0"
-    remark-emoji "3.1.1"
+    remark-emoji "3.1.2"
     remark-gfm "^3.0.1"
     remark-mdc "^1.1.3"
-    remark-parse "^10.0.1"
+    remark-parse "^10.0.2"
     remark-rehype "^10.1.0"
     remark-squeeze-paragraphs "^5.0.1"
     scule "^1.0.0"
-    shiki-es "^0.2.0"
-    slugify "^1.6.5"
-    socket.io-client "^4.6.1"
-    ufo "^1.1.1"
+    shiki-es "^0.14.0"
+    slugify "^1.6.6"
+    socket.io-client "^4.7.1"
+    ufo "^1.1.2"
     unified "^10.1.2"
-    unist-builder "^3.0.1"
-    unist-util-position "^4.0.4"
-    unist-util-visit "^4.1.2"
-    unstorage "^1.3.0"
-    ws "^8.12.1"
+    unist-builder "^4.0.0"
+    unist-util-position "^5.0.0"
+    unist-util-stringify-position "^4.0.0"
+    unist-util-visit "^5.0.0"
+    unstorage "^1.8.0"
+    ws "^8.13.0"
 
 "@nuxt/devalue@^2.0.0":
   version "2.0.0"
@@ -707,29 +708,6 @@
     ufo "^1.1.2"
   optionalDependencies:
     ipx "^1.2.0"
-
-"@nuxt/kit@3.2.3":
-  version "3.2.3"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.2.3.tgz"
-  dependencies:
-    "@nuxt/schema" "3.2.3"
-    c12 "^1.1.2"
-    consola "^2.15.3"
-    defu "^6.1.2"
-    globby "^13.1.3"
-    hash-sum "^2.0.0"
-    ignore "^5.2.4"
-    jiti "^1.17.1"
-    knitwork "^1.0.0"
-    lodash.template "^4.5.0"
-    mlly "^1.1.1"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    scule "^1.0.0"
-    semver "^7.3.8"
-    unctx "^2.1.2"
-    unimport "^2.2.4"
-    untyped "^1.2.2"
 
 "@nuxt/kit@3.3.2":
   version "3.3.2"
@@ -800,7 +778,7 @@
     unimport "^3.0.6"
     untyped "^1.3.2"
 
-"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.5.1", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.6.5":
+"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0", "@nuxt/kit@^3.5.1", "@nuxt/kit@^3.5.3", "@nuxt/kit@^3.6.3", "@nuxt/kit@^3.6.5":
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.6.5.tgz#208777acdc2a09109fbe4209aad736874eb9a3f5"
   dependencies:
@@ -821,24 +799,6 @@
     unctx "^2.3.1"
     unimport "^3.0.14"
     untyped "^1.3.2"
-
-"@nuxt/schema@3.2.3":
-  version "3.2.3"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.2.3.tgz"
-  dependencies:
-    c12 "^1.1.2"
-    create-require "^1.1.1"
-    defu "^6.1.2"
-    hookable "^5.4.2"
-    jiti "^1.17.1"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    postcss-import-resolver "^2.0.0"
-    scule "^1.0.0"
-    std-env "^3.3.2"
-    ufo "^1.1.1"
-    unimport "^2.2.4"
-    untyped "^1.2.2"
 
 "@nuxt/schema@3.3.2":
   version "3.3.2"
@@ -981,6 +941,14 @@
     "@nuxt/kit" "^3.6.5"
     google-fonts-helper "^3.3.1"
     pathe "^1.1.1"
+
+"@parcel/watcher-wasm@2.3.0-alpha.1":
+  version "2.3.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-wasm/-/watcher-wasm-2.3.0-alpha.1.tgz#2c1b655be3d488c55456d22e7d1db2047d5b2529"
+  dependencies:
+    is-glob "^4.0.3"
+    micromatch "^4.0.5"
+    napi-wasm "^1.1.0"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -1141,6 +1109,10 @@
 "@types/unist@*", "@types/unist@^2.0.0":
   version "2.0.6"
   resolved "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"
+
+"@types/unist@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/unist/-/unist-3.0.0.tgz#988ae8af1e5239e89f9fbb1ade4c935f4eeedf9a"
 
 "@unhead/addons@^1.1.26":
   version "1.1.26"
@@ -1652,7 +1624,7 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
 
-c12@^1.1.2, c12@^1.2.0:
+c12@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/c12/-/c12-1.2.0.tgz"
   dependencies:
@@ -1837,6 +1809,12 @@ ci-info@^3.8.0:
   version "3.8.0"
   resolved "https://registry.npmjs.org/ci-info/-/ci-info-3.8.0.tgz"
 
+citty@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/citty/-/citty-0.1.2.tgz#bae07bfd1962439735d7698c7954f76025690603"
+  dependencies:
+    consola "^3.2.3"
+
 clear@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/clear/-/clear-0.1.0.tgz"
@@ -1984,11 +1962,7 @@ consola@^2.15.3:
   version "2.15.3"
   resolved "https://registry.npmjs.org/consola/-/consola-2.15.3.tgz"
 
-consola@^3.0.1, consola@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-3.1.0.tgz#dfdfa62ceb68bc1f06e4a76ad688566bd8813baf"
-
-consola@^3.2.3:
+consola@^3.0.1, consola@^3.1.0, consola@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/consola/-/consola-3.2.3.tgz#0741857aa88cfa0d6fd53f1cff0375136e98502f"
 
@@ -2362,19 +2336,19 @@ end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-engine.io-client@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.npmjs.org/engine.io-client/-/engine.io-client-6.4.0.tgz"
+engine.io-client@~6.5.2:
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-6.5.2.tgz#8709e22c291d4297ae80318d3c8baeae71f0e002"
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.3.1"
-    engine.io-parser "~5.0.3"
+    engine.io-parser "~5.2.1"
     ws "~8.11.0"
     xmlhttprequest-ssl "~2.0.0"
 
-engine.io-parser@~5.0.3:
-  version "5.0.6"
-  resolved "https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.0.6.tgz"
+engine.io-parser@~5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/engine.io-parser/-/engine.io-parser-5.2.1.tgz#9f213c77512ff1a6cc0c7a86108a7ffceb16fcfb"
 
 enhanced-resolve@^4.1.1:
   version "4.5.0"
@@ -2837,7 +2811,7 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3@^1.5.0, h3@^1.6.2, h3@^1.6.6:
+h3@^1.6.2, h3@^1.6.6:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/h3/-/h3-1.6.6.tgz#f7da8517ae3bf906716975e38f2d3c24ab79a239"
   dependencies:
@@ -2848,6 +2822,31 @@ h3@^1.5.0, h3@^1.6.2, h3@^1.6.6:
     radix3 "^1.0.1"
     ufo "^1.1.2"
     uncrypto "^0.1.2"
+
+h3@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-1.7.1.tgz#fc9328adf5da1d29cbb2d97b81ae3dd9b426463e"
+  dependencies:
+    cookie-es "^1.0.0"
+    defu "^6.1.2"
+    destr "^2.0.0"
+    iron-webcrypto "^0.7.0"
+    radix3 "^1.0.1"
+    ufo "^1.1.2"
+    uncrypto "^0.1.3"
+
+h3@^1.8.0-rc.2:
+  version "1.8.0-rc.2"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-1.8.0-rc.2.tgz#6def715c8de53ee0f5423ce9b1fdef49a18609cd"
+  dependencies:
+    cookie-es "^1.0.0"
+    defu "^6.1.2"
+    destr "^2.0.0"
+    iron-webcrypto "^0.8.0"
+    radix3 "^1.0.1"
+    ufo "^1.1.2"
+    uncrypto "^0.1.3"
+    unenv "^1.6.1"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -3068,9 +3067,9 @@ inquirer@^9.1.4:
     through "^2.3.6"
     wrap-ansi "^8.1.0"
 
-ioredis@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.npmjs.org/ioredis/-/ioredis-5.3.1.tgz"
+ioredis@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.3.2.tgz#9139f596f62fc9c72d873353ac5395bcf05709f7"
   dependencies:
     "@ioredis/commands" "^1.1.1"
     cluster-key-slot "^1.1.0"
@@ -3081,10 +3080,6 @@ ioredis@^5.3.1:
     redis-errors "^1.2.0"
     redis-parser "^3.0.0"
     standard-as-callback "^2.1.0"
-
-ip-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/ip-regex/-/ip-regex-5.0.0.tgz"
 
 ipx@^1.2.0:
   version "1.2.0"
@@ -3106,6 +3101,10 @@ ipx@^1.2.0:
 iron-webcrypto@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/iron-webcrypto/-/iron-webcrypto-0.7.0.tgz#781262e56127404c4e49e5e150a49408d3dec30f"
+
+iron-webcrypto@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/iron-webcrypto/-/iron-webcrypto-0.8.0.tgz#21bb7727c7bcd086bd7b7becf5266d1865d04acb"
 
 is-absolute-url@^4.0.0:
   version "4.0.1"
@@ -3168,7 +3167,7 @@ is-fullwidth-code-point@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz"
 
-is-glob@^4.0.1, is-glob@~4.0.1:
+is-glob@^4.0.1, is-glob@^4.0.3, is-glob@~4.0.1:
   version "4.0.3"
   resolved "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz"
   dependencies:
@@ -3343,18 +3342,23 @@ linebreak@^1.1.0:
     base64-js "0.0.8"
     unicode-trie "^2.0.0"
 
-listhen@^1.0.3, listhen@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/listhen/-/listhen-1.0.4.tgz"
+listhen@^1.0.4, listhen@^1.1.1:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.2.2.tgz#f0b3b616e2d2f6632853f7aa35137bd6bb5b8d82"
   dependencies:
+    "@parcel/watcher-wasm" "2.3.0-alpha.1"
+    citty "^0.1.2"
     clipboardy "^3.0.0"
-    colorette "^2.0.19"
+    consola "^3.2.3"
     defu "^6.1.2"
     get-port-please "^3.0.1"
+    h3 "^1.8.0-rc.2"
     http-shutdown "^1.2.2"
-    ip-regex "^5.0.0"
+    jiti "^1.19.1"
+    mlly "^1.4.0"
     node-forge "^1.3.1"
-    ufo "^1.1.1"
+    pathe "^1.1.1"
+    ufo "^1.2.0"
 
 local-pkg@^0.4.3:
   version "0.4.3"
@@ -3432,6 +3436,10 @@ longest-streak@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/longest-streak/-/longest-streak-3.1.0.tgz"
 
+lru-cache@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
+
 lru-cache@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz"
@@ -3443,10 +3451,6 @@ lru-cache@^6.0.0:
   resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
   dependencies:
     yallist "^4.0.0"
-
-lru-cache@^7.18.3:
-  version "7.18.3"
-  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz"
 
 magic-string@^0.25.7:
   version "0.25.9"
@@ -3888,7 +3892,7 @@ micromark@^3.0.0, micromark@^3.1.0:
     micromark-util-types "^1.0.1"
     uvu "^0.5.0"
 
-micromatch@^4.0.2, micromatch@^4.0.4:
+micromatch@^4.0.2, micromatch@^4.0.4, micromatch@^4.0.5:
   version "4.0.5"
   resolved "https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz"
   dependencies:
@@ -4039,6 +4043,10 @@ nanoid@^4.0.1:
 napi-build-utils@^1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-1.0.2.tgz"
+
+napi-wasm@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/napi-wasm/-/napi-wasm-1.1.0.tgz#bbe617823765ae9c1bc12ff5942370eae7b2ba4e"
 
 negotiator@0.6.3:
   version "0.6.3"
@@ -4548,7 +4556,7 @@ pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/pify/-/pify-2.3.0.tgz"
 
-pkg-types@^1.0.1, pkg-types@^1.0.2:
+pkg-types@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/pkg-types/-/pkg-types-1.0.2.tgz"
   dependencies:
@@ -4956,12 +4964,13 @@ registry-url@3.1.0:
   dependencies:
     rc "^1.0.1"
 
-rehype-external-links@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/rehype-external-links/-/rehype-external-links-2.0.1.tgz"
+rehype-external-links@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/rehype-external-links/-/rehype-external-links-2.1.0.tgz#e13a2f16c3629b569baea842515b7e200f62f512"
   dependencies:
     "@types/hast" "^2.0.0"
     extend "^3.0.0"
+    hast-util-is-element "^2.0.0"
     is-absolute-url "^4.0.0"
     space-separated-tokens "^2.0.0"
     unified "^10.0.0"
@@ -5004,9 +5013,9 @@ rehype-sort-attributes@^4.0.0:
     unified "^10.0.0"
     unist-util-visit "^4.0.0"
 
-remark-emoji@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.npmjs.org/remark-emoji/-/remark-emoji-3.1.1.tgz"
+remark-emoji@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-3.1.2.tgz#5eb738a119cbd0f50393e2541fdd01a76f59b62d"
   dependencies:
     emoticon "^4.0.1"
     mdast-util-find-and-replace "^2.2.2"
@@ -5040,9 +5049,9 @@ remark-mdc@^1.1.3:
     unist-util-visit "^4.1.1"
     unist-util-visit-parents "^5.1.1"
 
-remark-parse@^10.0.1:
-  version "10.0.1"
-  resolved "https://registry.npmjs.org/remark-parse/-/remark-parse-10.0.1.tgz"
+remark-parse@^10.0.2:
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-10.0.2.tgz#ca241fde8751c2158933f031a4e3efbaeb8bc262"
   dependencies:
     "@types/mdast" "^3.0.0"
     mdast-util-from-markdown "^1.0.0"
@@ -5309,9 +5318,9 @@ shell-quote@^1.7.3:
   version "1.8.0"
   resolved "https://registry.npmjs.org/shell-quote/-/shell-quote-1.8.0.tgz"
 
-shiki-es@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/shiki-es/-/shiki-es-0.2.0.tgz"
+shiki-es@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/shiki-es/-/shiki-es-0.14.0.tgz#64f7902ad47eda244840836f70f68f9d24aac6e6"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   version "3.0.7"
@@ -5356,26 +5365,26 @@ slash@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz"
 
-slugify@^1.6.5:
-  version "1.6.5"
-  resolved "https://registry.npmjs.org/slugify/-/slugify-1.6.5.tgz"
+slugify@^1.6.6:
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.6.tgz#2d4ac0eacb47add6af9e04d3be79319cbcc7924b"
 
 smob@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/smob/-/smob-0.0.6.tgz"
 
-socket.io-client@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.6.1.tgz"
+socket.io-client@^4.7.1:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-4.7.2.tgz#f2f13f68058bd4e40f94f2a1541f275157ff2c08"
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.3.2"
-    engine.io-client "~6.4.0"
-    socket.io-parser "~4.2.1"
+    engine.io-client "~6.5.2"
+    socket.io-parser "~4.2.4"
 
-socket.io-parser@~4.2.1:
-  version "4.2.2"
-  resolved "https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.2.tgz"
+socket.io-parser@~4.2.4:
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.2.4.tgz#c806966cf7270601e47469ddeec30fbdfda44c83"
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.3.1"
@@ -5499,7 +5508,7 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz"
 
-strip-literal@^1.0.0, strip-literal@^1.0.1:
+strip-literal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/strip-literal/-/strip-literal-1.0.1.tgz"
   dependencies:
@@ -5698,9 +5707,9 @@ type-fest@^3.0.0:
   version "3.6.1"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-3.6.1.tgz"
 
-ufo@^1.0.0, ufo@^1.1.0, ufo@^1.1.1, ufo@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.1.2.tgz#d0d9e0fa09dece0c31ffd57bd363f030a35cfe76"
+ufo@^1.0.0, ufo@^1.1.0, ufo@^1.1.1, ufo@^1.1.2, ufo@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.2.0.tgz#28d127a087a46729133fdc89cb1358508b3f80ba"
 
 ultrahtml@^1.2.0:
   version "1.2.0"
@@ -5709,6 +5718,10 @@ ultrahtml@^1.2.0:
 uncrypto@^0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/uncrypto/-/uncrypto-0.1.2.tgz"
+
+uncrypto@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/uncrypto/-/uncrypto-0.1.3.tgz#e1288d609226f2d02d8d69ee861fa20d8348ef2b"
 
 unctx@^2.1.2:
   version "2.1.2"
@@ -5755,6 +5768,16 @@ unenv@^1.2.2:
     node-fetch-native "^1.0.2"
     pathe "^1.1.0"
 
+unenv@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/unenv/-/unenv-1.6.1.tgz#7d0787442b31e78481f1066c8d06e418c4263237"
+  dependencies:
+    consola "^3.2.3"
+    defu "^6.1.2"
+    mime "^3.0.0"
+    node-fetch-native "^1.2.0"
+    pathe "^1.1.1"
+
 unhead@1.1.23:
   version "1.1.23"
   resolved "https://registry.npmjs.org/unhead/-/unhead-1.1.23.tgz"
@@ -5791,22 +5814,6 @@ unified@^10.0.0, unified@^10.1.2:
     is-plain-obj "^4.0.0"
     trough "^2.0.0"
     vfile "^5.0.0"
-
-unimport@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.npmjs.org/unimport/-/unimport-2.2.4.tgz"
-  dependencies:
-    "@rollup/pluginutils" "^5.0.2"
-    escape-string-regexp "^5.0.0"
-    fast-glob "^3.2.12"
-    local-pkg "^0.4.3"
-    magic-string "^0.27.0"
-    mlly "^1.1.0"
-    pathe "^1.1.0"
-    pkg-types "^1.0.1"
-    scule "^1.0.0"
-    strip-literal "^1.0.0"
-    unplugin "^1.0.1"
 
 unimport@^3.0.14:
   version "3.1.0"
@@ -5856,11 +5863,11 @@ unimport@^3.0.6:
     strip-literal "^1.0.1"
     unplugin "^1.3.1"
 
-unist-builder@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/unist-builder/-/unist-builder-3.0.1.tgz"
+unist-builder@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/unist-builder/-/unist-builder-4.0.0.tgz#817b326c015a6f9f5e92bb55b8e8bc5e578fe243"
   dependencies:
-    "@types/unist" "^2.0.0"
+    "@types/unist" "^3.0.0"
 
 unist-util-generated@^2.0.0:
   version "2.0.1"
@@ -5872,17 +5879,35 @@ unist-util-is@^5.0.0:
   dependencies:
     "@types/unist" "^2.0.0"
 
-unist-util-position@^4.0.0, unist-util-position@^4.0.4:
+unist-util-is@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-is/-/unist-util-is-6.0.0.tgz#b775956486aff107a9ded971d996c173374be424"
+  dependencies:
+    "@types/unist" "^3.0.0"
+
+unist-util-position@^4.0.0:
   version "4.0.4"
   resolved "https://registry.npmjs.org/unist-util-position/-/unist-util-position-4.0.4.tgz"
   dependencies:
     "@types/unist" "^2.0.0"
+
+unist-util-position@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-5.0.0.tgz#678f20ab5ca1207a97d7ea8a388373c9cf896be4"
+  dependencies:
+    "@types/unist" "^3.0.0"
 
 unist-util-stringify-position@^3.0.0:
   version "3.0.3"
   resolved "https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-3.0.3.tgz"
   dependencies:
     "@types/unist" "^2.0.0"
+
+unist-util-stringify-position@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz#449c6e21a880e0855bf5aabadeb3a740314abac2"
+  dependencies:
+    "@types/unist" "^3.0.0"
 
 unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.1:
   version "5.1.3"
@@ -5891,13 +5916,28 @@ unist-util-visit-parents@^5.0.0, unist-util-visit-parents@^5.1.1:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
 
-unist-util-visit@^4.0.0, unist-util-visit@^4.1.1, unist-util-visit@^4.1.2:
+unist-util-visit-parents@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-6.0.1.tgz#4d5f85755c3b8f0dc69e21eca5d6d82d22162815"
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-is "^6.0.0"
+
+unist-util-visit@^4.0.0, unist-util-visit@^4.1.1:
   version "4.1.2"
   resolved "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-4.1.2.tgz"
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^5.1.1"
+
+unist-util-visit@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-5.0.0.tgz#a7de1f31f72ffd3519ea71814cccf5fd6a9217d6"
+  dependencies:
+    "@types/unist" "^3.0.0"
+    unist-util-is "^6.0.0"
+    unist-util-visit-parents "^6.0.0"
 
 universalify@^0.1.0, universalify@^0.1.2:
   version "0.1.2"
@@ -5936,21 +5976,21 @@ unplugin@^1.4.0:
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.5.0"
 
-unstorage@^1.3.0, unstorage@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/unstorage/-/unstorage-1.4.1.tgz"
+unstorage@^1.4.1, unstorage@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/unstorage/-/unstorage-1.8.0.tgz#fa90a5a82c35183257acc3f0461fd982f42dfc9a"
   dependencies:
     anymatch "^3.1.3"
     chokidar "^3.5.3"
-    destr "^1.2.2"
-    h3 "^1.5.0"
-    ioredis "^5.3.1"
-    listhen "^1.0.3"
-    lru-cache "^7.18.3"
+    destr "^2.0.0"
+    h3 "^1.7.1"
+    ioredis "^5.3.2"
+    listhen "^1.0.4"
+    lru-cache "^10.0.0"
     mri "^1.2.0"
-    node-fetch-native "^1.0.2"
-    ofetch "^1.0.1"
-    ufo "^1.1.1"
+    node-fetch-native "^1.2.0"
+    ofetch "^1.1.1"
+    ufo "^1.1.2"
 
 untyped@^1.2.2:
   version "1.2.2"
@@ -6225,7 +6265,7 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
 
-ws@^8.12.1, ws@^8.13.0:
+ws@^8.13.0:
   version "8.13.0"
   resolved "https://registry.npmjs.org/ws/-/ws-8.13.0.tgz"
 
