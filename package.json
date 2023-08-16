@@ -26,6 +26,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "nuxt-cloudflare-analytics": "^1.0.8",
     "sass": "^1.65.1",
-    "vuetify": "^3.3.12"
+    "vuetify": "^3.3.13"
   }
 }
