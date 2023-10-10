@@ -5862,9 +5862,9 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@~5.2.0:
   version "2.1.2"
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
 
-sass@^1.69.0:
-  version "1.69.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.0.tgz#5195075371c239ed556280cf2f5944d234f42679"
+sass@^1.69.1:
+  version "1.69.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.1.tgz#659b3b04452245dcf82f731684831e990ddb0c89"
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
