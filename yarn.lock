@@ -1110,9 +1110,9 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "6.4.2"
 
-"@fortawesome/vue-fontawesome@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/@fortawesome/vue-fontawesome/-/vue-fontawesome-3.0.3.tgz"
+"@fortawesome/vue-fontawesome@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-3.0.5.tgz#fef21fbb0277711160f9105e8e5bb9a15f5fce25"
 
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
