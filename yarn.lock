@@ -1413,9 +1413,9 @@
     which "^3.0.1"
     ws "^8.14.2"
 
-"@nuxt/image-edge@1.0.0-28321767.cdc8c2e":
-  version "1.0.0-28321767.cdc8c2e"
-  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-28321767.cdc8c2e.tgz#c2581b4eab63c533ef20b89e50d235aea6de451e"
+"@nuxt/image-edge@1.0.0-28324167.9427c1c":
+  version "1.0.0-28324167.9427c1c"
+  resolved "https://registry.yarnpkg.com/@nuxt/image-edge/-/image-edge-1.0.0-28324167.9427c1c.tgz#7e0b6342e1860eddc76666c30fafc1eea398aba7"
   dependencies:
     "@nuxt/kit" "^3.8.1"
     consola "^3.2.3"
