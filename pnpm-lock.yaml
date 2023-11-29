@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^6.5.0
     version: 6.5.0
   '@fortawesome/free-solid-svg-icons':
-    specifier: ^6.4.2
-    version: 6.4.2
+    specifier: ^6.5.0
+    version: 6.5.0
   '@fortawesome/vue-fontawesome':
     specifier: ^3.0.5
     version: 3.0.5(@fortawesome/fontawesome-svg-core@6.5.0)(vue@3.3.4)
@@ -562,6 +562,7 @@ packages:
     resolution: {integrity: sha512-1DgP7f+XQIJbLFCTX1V2QnxVmpLdKdzzo2k8EmvDOePfchaIGQ9eCHj2up3/jNEbZuBqel5OxiaOJf37TWauRA==}
     engines: {node: '>=6'}
     requiresBuild: true
+    dev: false
 
   /@fortawesome/fontawesome-common-types@6.5.0:
     resolution: {integrity: sha512-vYC8oN2l8meu05sRi1j3Iie/HNFAeIxpitYFhsUrBc11TxiMken9QdXnSQ0q16FYsOSt/6soxs5ghdk+VYGiog==}
@@ -599,12 +600,12 @@ packages:
       '@fortawesome/fontawesome-common-types': 6.4.2
     dev: false
 
-  /@fortawesome/free-solid-svg-icons@6.4.2:
-    resolution: {integrity: sha512-sYwXurXUEQS32fZz9hVCUUv/xu49PEJEyUOsA51l6PU/qVgfbTb2glsTEaJngVVT8VqBATRIdh7XVgV1JF1LkA==}
+  /@fortawesome/free-solid-svg-icons@6.5.0:
+    resolution: {integrity: sha512-6ZPq8mme67Q7O9Fbp2O+Z7mPZbcWTsRv555JLftLaTodiV0Wq+99YgMhyQ8O6mgNQfComqS9OEvqs7M8ySA92g==}
     engines: {node: '>=6'}
     requiresBuild: true
     dependencies:
-      '@fortawesome/fontawesome-common-types': 6.4.2
+      '@fortawesome/fontawesome-common-types': 6.5.0
     dev: true
 
   /@fortawesome/vue-fontawesome@3.0.5(@fortawesome/fontawesome-svg-core@6.5.0)(vue@3.3.4):
