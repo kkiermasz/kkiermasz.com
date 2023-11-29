@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@fortawesome/fontawesome-free':
-    specifier: ^6.4.2
-    version: 6.4.2
+    specifier: ^6.5.0
+    version: 6.5.0
   '@fortawesome/fontawesome-svg-core':
     specifier: ^6.5.0
     version: 6.5.0
@@ -563,8 +563,8 @@ packages:
     engines: {node: '>=6'}
     requiresBuild: true
 
-  /@fortawesome/fontawesome-free@6.4.2:
-    resolution: {integrity: sha512-m5cPn3e2+FDCOgi1mz0RexTUvvQibBebOUlUlW0+YrMjDTPkiJ6VTKukA1GRsvRw+12KyJndNjj0O4AgTxm2Pg==}
+  /@fortawesome/fontawesome-free@6.5.0:
+    resolution: {integrity: sha512-npV8sIYN4tQmLkzkWU6Q2Ot8L3XqBzLpS+rGTl96nFM7qbMWIoFqcdp0YrcWlfRDQx5G+gA2sn8uSFNRAYTrrA==}
     engines: {node: '>=6'}
     requiresBuild: true
     dev: true
