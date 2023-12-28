@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^3.0.5
     version: 3.0.5(@fortawesome/fontawesome-svg-core@6.5.1)(vue@3.3.4)
   '@mdi/js':
-    specifier: ^7.3.67
-    version: 7.3.67
+    specifier: ^7.4.47
+    version: 7.4.47
   '@nuxt/content':
     specifier: ^2.9.0
     version: 2.9.0(nuxt@3.5.3)(vue@3.3.4)
@@ -676,8 +676,8 @@ packages:
       - supports-color
     dev: true
 
-  /@mdi/js@7.3.67:
-    resolution: {integrity: sha512-MnRjknFqpTC6FifhGHjZ0+QYq2bAkZFQqIj8JA2AdPZbBxUvr8QSgB2yPAJ8/ob/XkR41xlg5majDR3c1JP1hw==}
+  /@mdi/js@7.4.47:
+    resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
     dev: true
 
   /@netlify/functions@1.6.0:
