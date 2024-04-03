@@ -22,7 +22,7 @@
     "sharp": "^0.32.6"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "nuxt-cloudflare-analytics": "^1.0.8",
     "sass": "^1.72.0",
