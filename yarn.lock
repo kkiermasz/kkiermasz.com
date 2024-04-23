@@ -2694,9 +2694,9 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-ajv@8.11.0:
-  version "8.11.0"
-  resolved "https://registry.npmjs.org/ajv/-/ajv-8.11.0.tgz"
+ajv@8.12.0:
+  version "8.12.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.12.0.tgz#d1a0527323e22f53562c567c00991577dfbe19d1"
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
@@ -3183,11 +3183,7 @@ chalk@^4.1.1, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.0.0, chalk@^5.0.1, chalk@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/chalk/-/chalk-5.2.0.tgz"
-
-chalk@^5.3.0:
+chalk@^5.0.0, chalk@^5.0.1, chalk@^5.2.0, chalk@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
 
@@ -8180,12 +8176,12 @@ serve-static@^1.15.0:
     parseurl "~1.3.3"
     send "0.18.0"
 
-serve@^14.2.1:
-  version "14.2.1"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-14.2.1.tgz#3f078d292ed5e7b2c5a64f957af2765b0459798b"
+serve@^14.2.2:
+  version "14.2.2"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-14.2.2.tgz#af7678a5d893aa5048a6f94e5262cefc34a32f71"
   dependencies:
     "@zeit/schemas" "2.29.0"
-    ajv "8.11.0"
+    ajv "8.12.0"
     arg "5.0.2"
     boxen "7.0.0"
     chalk "5.0.1"
