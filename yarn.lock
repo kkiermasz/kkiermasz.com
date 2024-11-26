@@ -1096,11 +1096,11 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "6.7.1"
 
-"@fortawesome/free-brands-svg-icons@^6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.7.0.tgz#7fad7336c6c94acd7b3f5f8e3c1777935ea2f5cb"
+"@fortawesome/free-brands-svg-icons@^6.7.1":
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.7.1.tgz#1c1bbbac3ab897d02322b18fbbdf4d9b67ec1619"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "6.7.0"
+    "@fortawesome/fontawesome-common-types" "6.7.1"
 
 "@fortawesome/free-regular-svg-icons@^6.7.1":
   version "6.7.1"
