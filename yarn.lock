@@ -1090,11 +1090,11 @@
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.7.0.tgz#c38f4c32970628e214626697edae34a7fe282dbd"
 
-"@fortawesome/fontawesome-svg-core@^6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.7.0.tgz#98fd5570e6f08ccd764a08198259bf6f75a02e5d"
+"@fortawesome/fontawesome-svg-core@^6.7.1":
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.7.1.tgz#1f8ebb6f35cf02f89c110198514e848de17ac99e"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "6.7.0"
+    "@fortawesome/fontawesome-common-types" "6.7.1"
 
 "@fortawesome/free-brands-svg-icons@^6.7.0":
   version "6.7.0"
