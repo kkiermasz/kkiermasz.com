@@ -1078,10 +1078,6 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
 
-"@fortawesome/fontawesome-common-types@6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.7.0.tgz#2445c7aff51ab86dd600ffcb5762e6f50c4b23ea"
-
 "@fortawesome/fontawesome-common-types@6.7.1":
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.7.1.tgz#6201640f39fdcf8e41cd9d1a92b2da3a96817fa4"
@@ -9531,9 +9527,9 @@ vue@^3.3.4:
     "@vue/server-renderer" "3.3.7"
     "@vue/shared" "3.3.7"
 
-vuetify@^3.7.4:
-  version "3.7.4"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.7.4.tgz#52de97ecb4e456c92dc81c723d1e21b1ddccdbc6"
+vuetify@^3.7.5:
+  version "3.7.5"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.7.5.tgz#087632a0c6e32ee7114e046bcbf52a55f43e52e1"
 
 wcwidth@^1.0.1:
   version "1.0.1"
