@@ -21,8 +21,8 @@ importers:
         specifier: ^1.83.4
         version: 1.83.4
       vuetify:
-        specifier: ^3.7.7
-        version: 3.7.7(vue@3.3.4)
+        specifier: ^3.7.8
+        version: 3.7.8(vue@3.3.4)
     devDependencies:
       '@fortawesome/fontawesome-free':
         specifier: ^6.7.2
@@ -2191,9 +2191,11 @@ packages:
 
   lodash.pick@4.4.0:
     resolution: {integrity: sha512-hXt6Ul/5yWjfklSGvLQl8vM//l3FtyHZeuelpzK6mm99pNvN9yTDruNZPEJZD1oWrqo+izBmB7oUfWgcCX7s4Q==}
+    deprecated: This package is deprecated. Use destructuring assignment syntax instead.
 
   lodash.template@4.5.0:
     resolution: {integrity: sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
 
   lodash.templatesettings@4.2.0:
     resolution: {integrity: sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==}
@@ -3912,8 +3914,8 @@ packages:
   vue@3.3.4:
     resolution: {integrity: sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==}
 
-  vuetify@3.7.7:
-    resolution: {integrity: sha512-YqKnRo2+BZWQRzfxHVA/5reQo1eLvbS9Z6N+Lvaot/5lpdi7JWooMr/hWoCr7/QPBGRcXArHppqIB+hMfPlsXw==}
+  vuetify@3.7.8:
+    resolution: {integrity: sha512-67p7Ton7EikHKhzauAmpsV1HT/zA2DmG8hjcHmQrktGl1eBrRaQVE+idWLtbhO51jqpTsrKQK9+HuG0KRwIGYQ==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
@@ -9225,7 +9227,7 @@ snapshots:
       '@vue/server-renderer': 3.3.4(vue@3.3.4)
       '@vue/shared': 3.3.4
 
-  vuetify@3.7.7(vue@3.3.4):
+  vuetify@3.7.8(vue@3.3.4):
     dependencies:
       vue: 3.3.4
 
