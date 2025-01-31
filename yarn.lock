@@ -9527,9 +9527,9 @@ vue@^3.3.4:
     "@vue/server-renderer" "3.3.7"
     "@vue/shared" "3.3.7"
 
-vuetify@^3.7.8:
-  version "3.7.8"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.7.8.tgz#fa07f07650e0fb1fd14af0c080bd4e82c0039fc4"
+vuetify@^3.7.9:
+  version "3.7.9"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.7.9.tgz#a06c7d79fe1ee592ce620729d988c868f4e653eb"
 
 wcwidth@^1.0.1:
   version "1.0.1"
