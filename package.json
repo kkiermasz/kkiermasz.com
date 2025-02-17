@@ -13,7 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@mdi/js": "^7.4.47",
-    "@nuxt/content": "^2.9.0",
+    "@nuxt/content": "^3.1.1",
     "@nuxt/image-edge": "1.0.0-28336957.57c0f74",
     "@nuxtjs/google-fonts": "3.0.2",
     "nuxt": "^3.3.2",
