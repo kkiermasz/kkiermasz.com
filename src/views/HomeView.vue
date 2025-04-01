@@ -1,21 +1,21 @@
 <template>
-  <div class="container">
-    <div class="content">
-      <div class="links-section">
-        <a href="https://getdrin.app" class="link">drin</a>
-        <a href="https://ticjournal.com" class="link">ticjournal</a>
+  <div class="min-h-screen w-full bg-[#656560] text-white font-['Menlo'] overflow-x-hidden box-border flex items-center justify-center px-6 py-6">
+    <div class="w-full max-w-[360px] flex flex-col items-start gap-16">
+      <div class="w-full flex flex-col items-start gap-3">
+        <a href="https://getdrin.app" class="p-1 text-white no-underline hover:underline">drin</a>
+        <a href="https://ticjournal.com" class="p-1 text-white no-underline hover:underline">ticjournal</a>
       </div>
 
-      <div class="social-section">
-        <a href="https://github.com/kkiermasz" class="link">github</a>
-        <a href="https://linkedin.com/in/jakub-kiermasz" class="link">linkedin</a>
-        <a href="https://twitter.com/JakubKiermasz" class="link">x</a>
-        <a href="https://medium.com/@jakubkiermasz" class="link">medium</a>
+      <div class="w-full flex flex-col items-start gap-3">
+        <a href="https://github.com/kkiermasz" class="p-1 text-white no-underline hover:underline">github</a>
+        <a href="https://linkedin.com/in/jakub-kiermasz" class="p-1 text-white no-underline hover:underline">linkedin</a>
+        <a href="https://twitter.com/JakubKiermasz" class="p-1 text-white no-underline hover:underline">x</a>
+        <a href="https://medium.com/@jakubkiermasz" class="p-1 text-white no-underline hover:underline">medium</a>
       </div>
 
-      <div class="options-section">
-        <a href="/resume.pdf" class="link">resume</a>
-        <router-link to="/invoicing" class="link">invoicing</router-link>
+      <div class="w-full flex justify-between">
+        <a href="/resume.pdf" class="p-1 text-white no-underline hover:underline">resume</a>
+        <router-link to="/invoicing" class="p-1 text-white no-underline hover:underline">invoicing</router-link>
       </div>
     </div>
   </div>
@@ -31,9 +31,13 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
   background-color: #656560;
   color: #fff;
   font-family: monospace;
+  overflow-x: hidden;
+  padding: 24px 0;
+  box-sizing: border-box;
 }
 
 .content {
@@ -43,6 +47,8 @@
   text-align: left;
   width: 360px;
   gap: 64px;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .links-section, .social-section {
@@ -69,5 +75,31 @@
 
 .link:hover {
   text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .content {
+    width: 100%;
+  }
+  
+  .options-section {
+    justify-content: space-between;
+    gap: 16px;
+  }
+}
+
+@media (max-height: 600px) {
+  .container {
+    align-items: flex-start;
+    overflow-y: auto;
+    padding-top: 64px;
+  }
+  
+  .content {
+    gap: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 </style> 

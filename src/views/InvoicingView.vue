@@ -1,29 +1,29 @@
 <template>
-  <div class="container">
-    <div class="content">
-      <span>invoicing details</span>
+  <div class="min-h-screen w-full bg-[#656560] text-white font-['Menlo'] overflow-x-hidden box-border flex items-center justify-center px-6 py-6">
+    <div class="w-full max-w-[360px] flex flex-col items-center gap-8">
+      <span class="text-white">invoicing details</span>
       
-      <div class="details-section">
-        <div class="detail-item" @click="copyToClipboard('Bug Factory Jakub Kiermasz')">
-          <span class="label">name</span>
-          <span class="value">Bug Factory Jakub Kiermasz</span>
+      <div class="w-full flex flex-col gap-6">
+        <div class="flex flex-col gap-1">
+          <span class="text-white">name</span>
+          <span class="text-white no-underline hover:underline cursor-pointer" @click="copyToClipboard('Bug Factory Jakub Kiermasz')">Bug Factory Jakub Kiermasz</span>
         </div>
-        <div class="detail-item" @click="copyToClipboard('ul. Długa 55a/33, 53-633 Wrocław')">
-          <span class="label">address</span>
-          <span class="value">ul. Długa 55a/33, 53-633 Wrocław</span>
+        <div class="flex flex-col gap-1">
+          <span class="text-white">address</span>
+          <span class="text-white no-underline hover:underline cursor-pointer" @click="copyToClipboard('ul. Długa 55a/33, 53-633 Wrocław')">ul. Długa 55a/33, 53-633 Wrocław</span>
         </div>
-        <div class="detail-item" @click="copyToClipboard('PL9452264831')">
-          <span class="label">VAT Number/NIP</span>
-          <span class="value">PL9452264831</span>
+        <div class="flex flex-col gap-1">
+          <span class="text-white">VAT Number/NIP</span>
+          <span class="text-white no-underline hover:underline cursor-pointer" @click="copyToClipboard('PL9452264831')">PL9452264831</span>
         </div>
-        <div class="detail-item" @click="copyToClipboard('523735432')">
-          <span class="label">REGON</span>
-          <span class="value">523735432</span>
+        <div class="flex flex-col gap-1">
+          <span class="text-white">REGON</span>
+          <span class="text-white no-underline hover:underline cursor-pointer" @click="copyToClipboard('523735432')">523735432</span>
         </div>
       </div>
 
-      <div class="navigation">
-        <router-link to="/" class="back-link">home</router-link>
+      <div class="mt-8">
+        <router-link to="/" class="p-1 text-white no-underline hover:underline">home</router-link>
       </div>
     </div>
   </div>
@@ -48,18 +48,25 @@ const copyToClipboard = (text) => {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
   background-color: #656560;
   color: #fff;
   font-family: monospace;
+  overflow-x: hidden;
+  padding: 24px 0;
+  box-sizing: border-box;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 2rem;
   width: 360px;
-  padding: 1rem;
+  padding: 16px;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -71,7 +78,8 @@ h1 {
 .details-section {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .detail-item {
@@ -98,5 +106,26 @@ h1 {
 
 .back-link:hover {
   text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .content {
+    width: 100%;
+  }
+}
+
+@media (max-height: 600px) {
+  .container {
+    align-items: flex-start;
+    overflow-y: auto;
+    padding-top: 48px;
+  }
+  
+  .content {
+    gap: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 </style> 
