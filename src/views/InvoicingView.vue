@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen w-full bg-[#656560] text-white font-['Menlo'] overflow-x-hidden box-border flex items-center justify-center px-6 py-6">
+  <div class="min-h-screen w-full bg-[#272722] text-white font-['Menlo'] overflow-x-hidden box-border flex items-center justify-center px-6 py-6">
     <div class="w-full max-w-[360px] flex flex-col items-center gap-8">
       <span class="text-white">invoicing details</span>
       
