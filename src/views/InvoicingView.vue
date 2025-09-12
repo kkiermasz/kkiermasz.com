@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-col gap-1">
           <span class="text-white">address</span>
-          <span class="text-white no-underline hover:underline cursor-pointer" @click="copyToClipboard('ul. Długa 55a/33, 53-633 Wrocław')">ul. Długa 55a/33, 53-633 Wrocław</span>
+          <span class="text-white no-underline hover:underline cursor-pointer" @click="copyToClipboard('ul. Stanisława Klimeckiego 8a/76, 30-705 Kraków')">ul. Stanisława Klimeckiego 8a/76, 30-705 Kraków</span>
         </div>
         <div class="flex flex-col gap-1">
           <span class="text-white">VAT Number/NIP</span>
