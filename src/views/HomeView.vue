@@ -2,7 +2,6 @@
   <div class="min-h-screen w-full bg-[#272722] text-white font-['Menlo'] overflow-x-hidden box-border flex items-center justify-center px-6 py-6">
     <div class="w-full max-w-[360px] flex flex-col items-start gap-16">
       <div class="w-full flex flex-col items-start gap-3">
-        <a href="https://getdrin.app" class="p-1 text-white no-underline hover:underline">drin</a>
         <a href="https://ticjournal.com" class="p-1 text-white no-underline hover:underline">ticjournal</a>
       </div>
 
